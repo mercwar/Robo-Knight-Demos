@@ -73,8 +73,8 @@
 	</category>
 	<category name="source\avis_screen_saver.c">
 		<category name="Window">
-			<property name="Left" type="integer">4294967288</property>
-			<property name="Top" type="integer">4294967265</property>
+			<property name="Left" type="integer">2147483647</property>
+			<property name="Top" type="integer">2147483647</property>
 			<property name="Right" type="integer">924</property>
 			<property name="Bottom" type="integer">592</property>
 			<property name="Maximized" type="integer">1</property>

@@ -1,107 +1,58 @@
 <!-- BEGIN_SEED MERCG_AVIS_SCREENSAVER_2026
 GUID: AVIS-SCREEN-SAVER-2026
-TITLE: AVIS Screen Saver Demo – DX Standard C + Robo‑Knight Integration
+TITLE: AVIS Screen Saver Demo – RoboNight Series
 AUTHOR: CGPT / MercWar
-DATE: 2026‑01‑14
+DATE: 2026-01-14
 -->
 
-# 🤖 AVIS Screen Saver Demo – Robo‑Knight
+# 🚀 AVIS Screen Saver Demo – RoboNight
 
-Welcome to the **AVIS Screen Saver Demo** — a minimal **DirectX 11 in Standard C** project compatible with *Pelles C*, fully annotated for **AI‑assisted coding** and **Copilot / MERC‑G parsing**.
+<div style="text-align:center;">
+  <img src="https://raw.githubusercontent.com/mercwar/Cyborg/main/Mercwar_Robo-Knight/Copilot_20260114_022304.png" 
+       alt="Screen Saver Demo" style="max-width:80%; border-radius:12px; box-shadow: 0 4px 15px rgba(0,0,0,0.3);">
+</div>
 
----
-
-## 📷 Screenshots
-
-### 📸 DX & Copilot Visualization
-![Copilot DX Preview](https://raw.githubusercontent.com/mercwar/Cyborg/main/Mercwar_Robo-Knight/Copilot_20260114_022304.png)
-
-### 🎮 Screen Saver Demo
-![Robo‑Knight Demo Frame](https://raw.githubusercontent.com/mercwar/Cyborg/main/Mercwar_Robo-Knight/Copilot_20260114_015204.png)
+**DirectX in Standard C** – Minimal DX11 setup, screen saver demo, and AVIS-style structured comments for AI-assisted coding. 🖥️🎮
 
 ---
 
 ## 📌 Overview
+This demo shows a simple screen saver using:
 
-This repository demonstrates how to build a **DirectX 11 application in Standard C** using:
-
-- Pelles C IDE
-- AVIS‑style module structuring
-- Stubbed DX11 initialization & rendering
-- GDI fallback for visible output
-- AI readable source with Copilot / MERC‑G seed tags
+- Window creation & message loop 🪟
+- DX11 stubs ⚡
+- Moving shapes via GDI 🌌
+- AVIS-style comments for AI tooling 🤖
 
 ---
 
 ## 📁 File Structure
 
-| Path | Description |
+| File | Description |
 |------|-------------|
-| `source/avis_main.c` | Main entry point, window, loop |
-| `source/avis_screen_saver.c` | Screen saver logic & moving shapes |
-| `source/dx11_stub.c` | DX11 init/shutdown & RenderFrame stubs |
-| `source/avis_xinput_stub.c` | Controller input stubs |
-| `source/game_logic.c` | Game logic stub |
-| `include/*.h` | Header files for stubs & logic |
-| `output/` | Compiled objects & binary |
-
----
-
-## ⚙️ Features
-
-- 💻 Minimal **DirectX 11 stub** support without DX headers
-- 🎨 **GDI fallback rendering** of screen saver shapes
-- 🪟 Window creation & message loop in pure C
-- 🤖 **AVIS annotations** for AI tooling & Copilot
-- 📦 Modular structure for easy expansion
+| `avis_main.c` | Entry point & window loop |
+| `avis_screen_saver.c` | Screen saver logic & rendering |
+| `dx11_stub.c` | DX11 stubs (init/shutdown/render) |
+| `avis_xinput_stub.c` | Controller input stub |
+| `game_logic.c` | Frame update stub |
+| `include/*.h` | Header files |
+| `output/` | Compiled binaries & objects |
 
 ---
 
 ## 🚀 Build Instructions
-
-1. Install **Pelles C IDE** from https://www.smorgasbordet.com/pellesc/ 🛠️  
-2. Open this project in Pelles C IDE 📂  
-3. Build `mercwar.exe` using provided source files 🧱  
-4. Run the executable to see the screen saver in action 🎉  
-5. Use **Alt+Tab** to switch windows if the render window captures focus ⌨️
-
----
-
-## 📝 Copilot & AVIS Integration
-
-All source files include AVIS comments and tags:
-
-- `#main`, `#avis`, `#screensaver`, `#dx11`
-- Function purpose documentation
-- Structured for AI code generation and expansion
-- Image references and README tags assist Copilot context
-
----
-
-## 🌐 Repository
-
-This project is part of the Cyborg collection:
-
-🔗 https://github.com/mercwar/Cyborg
-
-Navigate to this project’s subfolder:
-
-📁 `Direct X Standard C/Mercwar_DirectX-FOR-_PellesC_AI_GEN_v1`
+1. Install [Pelles C IDE](https://www.smorgasbordet.com/pellesc/) 🛠️  
+2. Open project folder in Pelles C IDE 📂  
+3. Build `mercwar.exe` ✅  
+4. Run the executable to view the screen saver 🎉  
 
 ---
 
 ## ⚠️ Notes
-
-- Target: **Windows 10/11**
-- Pelles C IDE required
-- DirectX headers not required (stubbed)
-- Expand with full DX11 or future AI generated modules
+- Windows 10/11 recommended  
+- DirectX headers optional (stubs included)  
 
 ---
-
-## 🛠️ License
-
-**MIT License** — free to use, share, and modify.
 
 © 2026 CGPT / MercWar
 
