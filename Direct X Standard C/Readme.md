@@ -6,11 +6,11 @@ DATE: 2026-01-14
 -->
 
 # 💻 RoboNight – Standard C Apps + AVIS
-
-<div style="text-align:center; margin-bottom:16px;">
-  <img src="https://raw.githubusercontent.com/mercwar/Cyborg/main/Mercwar_Robo-Knight/tita-mech.png" 
-       alt="Standard C App Demo" style="max-width:70%; border-radius:12px; box-shadow:0 4px 15px rgba(0,0,0,0.3);">
+<div style="text-align:center; margin-top:20px;">
+  <img src="https://raw.githubusercontent.com/mercwar/Cyborg/main/Mercwar_Robo-Knight/Copilot_20260114_015204.png" 
+       alt="Standard C App Demo 2" style="max-width:70%; border-radius:12px; box-shadow:0 4px 15px rgba(0,0,0,0.3);">
 </div>
+
 
 This part of the RoboNight series includes all **Standard C applications** built with the **AVIS modular structure**, DX11 stubs, and AI‑friendly annotations.
 
@@ -55,9 +55,9 @@ This part of the RoboNight series includes all **Standard C applications** built
 
 ---
 
-<div style="text-align:center; margin-top:20px;">
-  <img src="https://raw.githubusercontent.com/mercwar/Cyborg/main/Mercwar_Robo-Knight/Copilot_20260114_015204.png" 
-       alt="Standard C App Demo 2" style="max-width:70%; border-radius:12px; box-shadow:0 4px 15px rgba(0,0,0,0.3);">
+<div style="text-align:center; margin-bottom:16px;">
+  <img src="https://raw.githubusercontent.com/mercwar/Cyborg/main/Mercwar_Robo-Knight/tita-mech.png" 
+       alt="Standard C App Demo" style="max-width:70%; border-radius:12px; box-shadow:0 4px 15px rgba(0,0,0,0.3);">
 </div>
 
 © 2026 CGPT / MercWar
