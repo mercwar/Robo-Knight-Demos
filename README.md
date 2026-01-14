@@ -1,50 +1,48 @@
-<!-- BEGIN_SEED MERCG_AVIS_ROBOKNIGHT_2026
-GUID: AVIS-ROBOKNIGHT-2026
-TITLE: Robo-Knight Demo – RoboNight Series
+<!-- BEGIN_SEED MERCG_AVIS_SERIES_2026
+GUID: AVIS-ROBOKNIGHT-SERIES-2026
+TITLE: RoboNight Series – All Apps
 AUTHOR: CGPT / MercWar
 DATE: 2026-01-14
 -->
 
-# 🤖 Robo-Knight Demo – RoboNight
+# 🚀 RoboNight Series – AVIS + DX11 + Standard C
 
-<div style="text-align:center;">
-  <img src="https://raw.githubusercontent.com/mercwar/Cyborg/main/Mercwar_Robo-Knight/Copilot_20260114_022304.png" 
-       alt="Robo-Knight DX Demo" style="max-width:80%; border-radius:12px; box-shadow:0 4px 15px rgba(0,0,0,0.3);">
-  <img src="https://raw.githubusercontent.com/mercwar/Cyborg/main/Mercwar_Robo-Knight/Copilot_20260114_015204.png" 
-       alt="Robo-Knight Screen Saver Frame" style="max-width:60%; border-radius:10px; margin:10px; box-shadow:0 4px 15px rgba(0,0,0,0.3);">
-</div>
-
-**DirectX 11 in Standard C**, AVIS-style comments, and Copilot-ready stubs.  
+This repository collects all **RoboNight projects**, including **Screen Saver Demo**, **Standard C apps**, and **Robo-Knight Demo**.
 
 ---
 
-## 📌 Overview
-- Robo-Knight themed DX11 screen saver demo  
-- Stubbed rendering for GDI & DX11 fallback  
-- AVIS structured comments for AI tooling  
+## 📁 Projects in the Series
+
+| Project | README | Screenshot |
+|---------|--------|------------|
+| Screen Saver Demo | [README_ScreenSaver.md](README_ScreenSaver.md) | ![Screen Saver](https://raw.githubusercontent.com/mercwar/Cyborg/main/Mercwar_Robo-Knight/Copilot_20260114_022304.png) |
+| Standard C Apps + AVIS | [README_StandardCApps.md](README_StandardCApps.md) | ![Standard C App](https://raw.githubusercontent.com/mercwar/Cyborg/main/Mercwar_Robo-Knight/Copilot_20260114_015204.png) |
+| Robo-Knight Demo | [README_RoboKnight.md](README_RoboKnight.md) | ![Robo-Knight Demo](https://raw.githubusercontent.com/mercwar/Cyborg/main/Mercwar_Robo-Knight/Copilot_20260114_022304.png) |
 
 ---
 
-## 📁 File Structure
-| File | Description |
-|------|-------------|
-| `source/avis_main.c` | Main entry point |
-| `source/avis_screen_saver.c` | Screen saver logic |
-| `source/dx11_stub.c` | DX11 init/shutdown stubs |
-| `source/avis_xinput_stub.c` | Controller input stubs |
-| `source/game_logic.c` | Frame update logic |
-| `include/*.h` | Headers |
-| `output/` | Compiled objects & exe |
+## ⚙️ Features Across the Series
+- DX11 stubbed & GDI fallback rendering  
+- Modular AVIS-style code for AI / Copilot integration  
+- Cross-file global management  
+- Pelles C Standard C compatibility  
+- Expandable for future RoboNight apps  
 
 ---
 
-## 🚀 Build Instructions
-1. Open folder in Pelles C IDE  
-2. Build `mercwar.exe`  
-3. Run to see Robo-Knight screen saver demo  
+## 🚀 Getting Started
+1. Install [Pelles C IDE](https://www.smorgasbordet.com/pellesc/)  
+2. Open individual project folders  
+3. Build each `.c` project  
+4. Run `mercwar.exe` for demo  
+
+---
+
+## 🌐 Repository
+Full series on GitHub: [https://github.com/mercwar/Cyborg](https://github.com/mercwar/Cyborg)
 
 ---
 
 © 2026 CGPT / MercWar
 
-<!-- END_SEED MERCG_AVIS_ROBOKNIGHT_2026 -->
+<!-- END_SEED MERCG_AVIS_SERIES_2026 -->
