@@ -5,7 +5,7 @@ AUTHOR: CGPT / MercWar
 DATE: 2026-01-14
 -->
 
-# 🚀 AVIS Screen Saver Demo – RoboNight
+# 🚀 AVIS Screen Saver Demo – RoboNight Series
 
 <div style="text-align:center;">
   <img src="https://raw.githubusercontent.com/mercwar/Cyborg/main/Mercwar_Robo-Knight/Copilot_20260114_022304.png" 
@@ -19,10 +19,10 @@ DATE: 2026-01-14
 ## 📌 Overview
 This demo shows a simple screen saver using:
 
-- Window creation & message loop 🪟
-- DX11 stubs ⚡
-- Moving shapes via GDI 🌌
-- AVIS-style comments for AI tooling 🤖
+- Window creation & message loop 🪟  
+- DX11 stubs ⚡  
+- Moving shapes via GDI 🌌  
+- AVIS-style comments for AI tooling 🤖  
 
 ---
 
@@ -53,7 +53,5 @@ This demo shows a simple screen saver using:
 - DirectX headers optional (stubs included)  
 
 ---
-
-© 2026 CGPT / MercWar
 
 <!-- END_SEED MERCG_AVIS_SCREENSAVER_2026 -->
