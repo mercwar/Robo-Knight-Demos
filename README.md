@@ -1,114 +1,188 @@
-<!-- BEGIN_SEED MERCG_AVIS_SERIES_2026
-GUID: AVIS-ROBOKNIGHT-SERIES-2026
-TITLE: RoboNight Series – All Apps
-AUTHOR: CGPT / MercWar
+<!-- BEGIN_SEED MERCG_ROBOKNIGHT_MASTER_2026
+GUID: AVIS-ROBOKNIGHT-MASTER-2026
+TITLE: RoboKnight – Cyborg Engine & Application Suite
+AUTHOR: MercWar / CGPT
 DATE: 2026-01-14
 -->
 
-# 🚀 RoboNight Series – AVIS + DX11 + Standard C
+# ⚔️ RoboKnight – The Cyborg Engine & Application Suite
 
-This repository collects all **RoboNight projects**, including the **Screen Saver Demo**, **Standard C Apps**, and the **Robo‑Knight Demo**.
+<div align="center" style="margin-bottom:25px;">
+  <img src="https://raw.githubusercontent.com/mercwar/Robo-Knight-Demos/main/Direct%20X%20Standard%20C/Mercwar_Robo-Knight/Photorealistic%20depic%20Copy.png"
+       alt="RoboKnight Greeting Hero"
+       style="max-width:85%; border-radius:14px; box-shadow:0 6px 20px rgba(0,0,0,0.45);">
+</div>
 
----
+**RoboKnight** is the unified technical universe built on top of the  
+**Cyborg Core**, a modular system of **Standard C applications**,  
+**DirectX‑ready rendering**, **AVIS‑structured modules**, and  
+future‑ready **network‑connected components**.
 
-## 📁 Projects in the Series
-
-| Project | README | Screenshot |
-|---------|--------|------------|
-| **Screen Saver Demo** | [README_ScreenSaver.md](README_ScreenSaver.md) | <div><strong>Screen Saver</strong><br><img src="https://raw.githubusercontent.com/mercwar/Cyborg/main/Mercwar_Robo-Knight/Copilot_20260114_022304.png" style="max-width:200px; border-radius:8px; box-shadow:0 4px 10px rgba(0,0,0,0.3);"></div> |
-| **Standard C Apps + AVIS** | [README_StandardCApps.md](README_StandardCApps.md) | <div><strong>Standard C App</strong><br><img src="https://raw.githubusercontent.com/mercwar/Cyborg/main/Mercwar_Robo-Knight/Copilot_20260114_015204.png" style="max-width:200px; border-radius:8px; box-shadow:0 4px 10px rgba(0,0,0,0.3);"></div> |
-| **Robo‑Knight Demo** | [README_RoboKnight.md](README_RoboKnight.md) | <div><strong>Robo‑Knight Demo</strong><br><img src="https://raw.githubusercontent.com/mercwar/Cyborg/main/Mercwar_Robo-Knight/Copilot_20260114_022304.png" style="max-width:200px; border-radius:8px; box-shadow:0 4px 10px rgba(0,0,0,0.3);"></div> |
-
----
-
-## ⚙️ Features Across the Series
-- DX11 stubbed & GDI fallback rendering  
-- Modular AVIS‑style code for AI / Copilot integration  
-- Cross‑file global management  
-- Pelles C Standard C compatibility  
-- Expandable for future RoboNight apps  
+This repository is not a single program —  
+it is a **family of interconnected systems**, each one designed to evolve  
+into a distributed, AI‑assisted, multiplayer‑capable engine.
 
 ---
 
-## 🚀 Getting Started
+# 🧠 What RoboKnight Actually Is
+
+RoboKnight is a **multi‑layer architecture**, where each layer builds on the one below it.
+
+### **Layer 0 — Cyborg Core (Standard C Apps)**  
+The foundation.  
+Defines:
+- Win32 runtime  
+- DX11 stubbed rendering  
+- GDI fallback  
+- AVIS module structure  
+- global runtime model  
+- update loops  
+- input stubs  
+
+This is the “OS” of the RoboKnight universe.
+
+### **Layer 1 — Screen Saver Engine**  
+A cinematic loop built on the Cyborg Core.  
+Demonstrates:
+- frame‑based animation  
+- DX11/GDI hybrid rendering  
+- AVIS‑style modularity  
+
+### **Layer 2 — RoboKnight Character Demos**  
+Photorealistic and stylized character scenes.  
+Used for:
+- visual identity  
+- AI reasoning anchors  
+- future cutscenes  
+- network‑synced avatars  
+
+### **Layer 3 — Tools, Utilities, and AI‑Generated Apps**  
+All powered by the Cyborg Core.  
+Includes:
+- debug tools  
+- render tests  
+- input tests  
+- network prototypes  
+
+### **Layer 4 — Networked RoboKnight Systems (Future)**  
+The long‑term goal.  
+A distributed system where:
+- each RoboKnight app can talk to others  
+- state syncs over LAN/Internet  
+- characters, screensavers, and tools share data  
+- AI‑generated modules plug into the network  
+
+---
+
+# 🌐 The Network Vision
+
+RoboKnight is designed to become a **connected universe**.
+
+### **The plan:**
+
+#### **1. Local Runtime → Network Runtime**
+Every Standard C app already has:
+- global state  
+- update loops  
+- rendering  
+- input  
+
+These will be extended with:
+- sockets  
+- message packets  
+- shared state replication  
+
+#### **2. Screen Saver → Networked Visual Node**
+Each screen saver instance becomes:
+- a visual client  
+- a renderer for remote events  
+- a participant in a distributed scene  
+
+#### **3. Character Demos → Networked Avatars**
+Each RoboKnight character becomes:
+- a networked entity  
+- synced animations  
+- synced transforms  
+- synced effects  
+
+#### **4. Cyborg Core → Distributed Engine**
+The Cyborg Core becomes:
+- the protocol  
+- the runtime  
+- the shared language between apps  
+
+---
+
+# 🧩 How All Applications Connect
+
+| System | Role | Network Future |
+|--------|------|----------------|
+| **Standard C Apps** | Core runtime, rendering, globals | Becomes the network protocol layer |
+| **Screen Saver Demo** | Visual loop, animation | Network‑synced visual node |
+| **RoboKnight Demos** | Characters, scenes | Networked avatars & scenes |
+| **Tools & Utilities** | Debugging, testing | Remote diagnostics & control |
+| **Cyborg Core** | AVIS structure, modularity | Distributed engine foundation |
+
+Everything speaks the same language:  
+**AVIS modules + Cyborg runtime + shared globals.**
+
+This is why the architecture works.
+
+---
+
+# 📁 Repository Structure
+
+| Directory | Purpose |
+|----------|----------|
+| `Standard C Apps/` | Cyborg Core (Layer 0) |
+| `Screen Saver Demo/` | AVIS cinematic loop (Layer 1) |
+| `RoboKnight Demos/` | Characters & scenes (Layer 2) |
+| `Tools/` | Debug utilities (Layer 3) |
+| `Network/` | Future distributed engine (Layer 4) |
+
+---
+
+# 🛠️ Technology Stack
+
+- **Standard C (C89/C90)**  
+- **Win32 API**  
+- **DX11 stubs**  
+- **GDI fallback**  
+- **AVIS modular structure**  
+- **AI‑friendly architecture**  
+- **Future: sockets, UDP/TCP, replication**  
+
+---
+
+# 🚀 Build Instructions
+
 1. Install **Pelles C IDE**  
-2. Open individual project folders  
-3. Build each `.c` project  
-4. Run `mercwar.exe`  
+2. Open any module directory  
+3. Build the `.c` files  
+4. Run the executable  
+5. Watch the Cyborg Core come alive  
 
 ---
 
-## 🌐 Repository
-Full series on GitHub:  
-**https://github.com/mercwar/Cyborg**
-
----
-
-© 2026 CGPT / MercWar
-
-<!-- END_SEED MERCG_AVIS_SERIES_2026 -->
-
-
-<!-- BEGIN_SEED MERCG_AVIS_ROBOKNIGHT_2026
-GUID: AVIS-ROBOKNIGHT-2026
-TITLE: Robo-Knight Demo – RoboNight Series
-AUTHOR: CGPT / MercWar
-DATE: 2026-01-14
--->
-
-# 🤖 Robo‑Knight Demo – RoboNight
-
----
-
-## 🖼️ Robo‑Knight DX Demo
-<div style="text-align:center; margin-bottom:20px;">
-  <img src="https://raw.githubusercontent.com/mercwar/Cyborg/main/Mercwar_Robo-Knight/Copilot_20260114_022304.png" 
-       alt="Robo-Knight DX Demo" style="max-width:80%; border-radius:12px; box-shadow:0 4px 15px rgba(0,0,0,0.3);">
+<div align="center" style="margin-top:35px; margin-bottom:25px;">
+  <img src="https://raw.githubusercontent.com/mercwar/Robo-Knight-Demos/main/Direct%20X%20Standard%20C/Mercwar_Robo-Knight/realistic%20full-body%20.png"
+       alt="RoboKnight Goodbye"
+       style="max-width:85%; border-radius:14px; box-shadow:0 6px 20px rgba(0,0,0,0.45);">
 </div>
 
-## 🖼️ Screen Saver Frame
-<div style="text-align:center; margin-bottom:20px;">
-  <img src="https://raw.githubusercontent.com/mercwar/Cyborg/main/Mercwar_Robo-Knight/Copilot_20260114_015204.png" 
-       alt="Robo-Knight Screen Saver Frame" style="max-width:70%; border-radius:10px; box-shadow:0 4px 15px rgba(0,0,0,0.3);">
-</div>
+# ⚔️ The RoboKnight Promise
 
-## 🖼️ Laser Bike Render
-<div style="text-align:center; margin-bottom:20px;">
-  <img src="https://raw.githubusercontent.com/mercwar/Cyborg/main/Mercwar_Robo-Knight/laser%20bike.png" 
-       alt="Robo-Knight Laser Bike" style="max-width:70%; border-radius:10px; box-shadow:0 4px 15px rgba(0,0,0,0.3);">
-</div>
+This project is a **living engine**, a **modular universe**, and a  
+**future networked system** built from the ground up in Standard C.
+
+Every file, every module, every demo is a stepping stone toward a  
+distributed, AI‑assisted, multiplayer‑capable Cyborg Engine.
+
+**Nothing here is throwaway code.**
 
 ---
 
-## 📌 Overview
-- Robo‑Knight themed DX11 screen saver  
-- Stubbed GDI / DX11 rendering  
-- AVIS‑style comments for AI & Copilot  
-- Modular frame update logic  
+© 2026 MercWar / CGPT  
+**RoboKnight Series – AVIS Compatible**
 
----
-
-## 📁 File Structure
-
-| File | Description |
-|------|-------------|
-| `source/avis_main.c` | Entry point |
-| `source/avis_screen_saver.c` | Screen saver logic |
-| `source/dx11_stub.c` | DX11 stub init/shutdown |
-| `source/avis_xinput_stub.c` | Controller stub |
-| `source/game_logic.c` | Frame logic |
-| `include/*.h` | Headers |
-| `output/` | Objects & binaries |
-
----
-
-## 🚀 Build Instructions
-1. Open project in **Pelles C IDE**  
-2. Build `mercwar.exe`  
-3. Run to see Robo‑Knight demo  
-
----
-
-© 2026 CGPT / MercWar
-
-<!-- END_SEED MERCG_AVIS_ROBOKNIGHT_2026 -->
+<!-- END_SEED MERCG_ROBOKNIGHT_MASTER_2026 -->
