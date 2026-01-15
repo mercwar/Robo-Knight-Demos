@@ -4,16 +4,23 @@ TITLE: AVIS Screen Saver & Game Template Demo – RoboNight
 AUTHOR: CGPT / MercWar
 DATE: 2026-01-14
 -->
+# 🤖   RoboNight
+# ⚙️ AVIS Screen Saver & Game Template Demo 
 
-# 🚀 AVIS Screen Saver & Game Template Demo – RoboNight
+<div align="center" style="margin-bottom:25px;">
+  <img src="https://raw.githubusercontent.com/mercwar/Robo-Knight-Demos/main/Direct%20X%20Standard%20C/Mercwar_Robo-Knight/MERCWAR_V030.png"
+       alt="RoboNight Greeting Hero"
+       style="max-width:85%; border-radius:14px; box-shadow:0 6px 20px rgba(0,0,0,0.45);">
+</div>
 
-**DirectX 11 in Standard C** — a minimal, real Win32 application that demonstrates
-how to structure a screen saver or game-style render loop using **DX11 stubs,
+
+
+**DirectX 11 in Standard C** — a minimal, real Win32 application that demonstrates  
+how to structure a screen saver or game-style render loop using **DX11 stubs,  
 GDI fallback rendering, and AVIS modular design**.
 
-This project is intentionally designed to compile cleanly in **Pelles C**,
-without requiring DirectX SDK headers, while still preserving a **future-proof
-DX11 interface**.
+This project is intentionally designed to compile cleanly in **Pelles C**,  
+without requiring DirectX SDK headers, while still preserving a **future-proof DX11 interface**.
 
 ---
 
@@ -45,8 +52,8 @@ DX11 interface**.
        style="border-radius:12px; box-shadow:0 4px 15px rgba(0,0,0,0.3);">
 </div>
 
-This frame represents the **visual target** of the screen saver demo.
-Even when DX11 is stubbed, the application **still renders visible output**
+This frame represents the **visual target** of the screen saver demo.  
+Even when DX11 is stubbed, the application **still renders visible output**  
 using GDI so developers always see *something working*.
 
 ---
@@ -60,11 +67,11 @@ They serve three purposes:
 2. Stable context for AI/Copilot reasoning  
 3. Aesthetic continuity across the series  
 
-### 📸 Full‑Body Table
+### 📸 Full‑Body AI GEN Table
 
-| Frame 1 | Frame 2 | Frame 3 |
+| Ai Gen | Ai Gen | Ai Gen |
 |--------|---------|---------|
-| <img src="https://raw.githubusercontent.com/mercwar/Robo-Knight-Demos/main/Direct%20X%20Standard%20C/Mercwar_Robo-Knight/realistic%20full-body%20.png" width="95%" style="border-radius:10px; box-shadow:0 4px 10px rgba(0,0,0,0.3);"> | <img src="https://raw.githubusercontent.com/mercwar/Robo-Knight-Demos/main/Direct%20X%20Standard%20C/Mercwar_Robo-Knight/realistic%20full-body12%20.png" width="95%" style="border-radius:10px; box-shadow:0 4px 10px rgba(0,0,0,0.3);"> | <img src="https://raw.githubusercontent.com/mercwar/Robo-Knight-Demos/main/Direct%20X%20Standard%20C/Mercwar_Robo-Knight/realistic%20full-body55%20.png" width="95%" style="border-radius:10px; box-shadow:0 4px 10px rgba(0,0,0,0.3);"> |
+| <img src="https://raw.githubusercontent.com/mercwar/Robo-Knight-Demos/main/Direct%20X%20Standard%20C/Mercwar_Robo-Knight/realistic%20full-body12%20.png" width="95%" style="border-radius:10px; box-shadow:0 4px 10px rgba(0,0,0,0.3);"> | <img src="https://raw.githubusercontent.com/mercwar/Robo-Knight-Demos/main/Direct%20X%20Standard%20C/Mercwar_Robo-Knight/Photorealistic%20depic%20Copy.png" width="95%" style="border-radius:10px; box-shadow:0 4px 10px rgba(0,0,0,0.3);"> | <img src="https://raw.githubusercontent.com/mercwar/Robo-Knight-Demos/main/Direct%20X%20Standard%20C/Mercwar_Robo-Knight/realistic%20full-body%20.png" width="95%" style="border-radius:10px; box-shadow:0 4px 10px rgba(0,0,0,0.3);"> |
 
 ---
 
@@ -92,10 +99,8 @@ This demo implements the **canonical AVIS runtime loop**:
 
 ## 🧠 Global Runtime Model (Important)
 
-This project uses **explicit, shared globals** on purpose.
-
+This project uses **explicit, shared globals** on purpose.  
 These are **not accidental** — they form the *runtime contract* between modules.
-
 
 int   g_screenWidth;
 int   g_screenHeight;
@@ -103,110 +108,117 @@ HDC   g_hDC;
 void* g_pDXDevice;
 void* g_pDXContext;
 void* g_pDXSwapChain;
-Why globals?
-Win32 APIs expect shared state
 
-DX11 will eventually require shared device/context
+Code
 
-Screen savers and games are inherently global-state driven
+### Why globals?
 
-AVIS favors clarity over abstraction tricks
+- Win32 APIs expect shared state  
+- DX11 will eventually require shared device/context  
+- Screen savers and games are inherently global-state driven  
+- AVIS favors clarity over abstraction tricks  
 
-📁 File Structure (Explained)
-File	Purpose
-avis_main.c	Owns WinMain, window class, message loop, and shutdown
-avis_screen_saver.c	Visual logic, motion, GDI rendering
-dx11_stub.c	DX11 interface layer (safe, header-free)
-avis_xinput_stub.c	Controller input placeholder
-game_logic.c	Game update hook (future expansion)
-include/*.h	Clean, minimal headers
-output/	Object files and final executable
-⚙️ Rendering Model
-DX11 Path (Stubbed)
-Functions exist
+---
 
-Interfaces are stable
+## 📁 File Structure (Explained)
 
-No DirectX headers required
+| File | Purpose |
+|------|---------|
+| `avis_main.c` | Owns WinMain, window class, message loop, and shutdown |
+| `avis_screen_saver.c` | Visual logic, motion, GDI rendering |
+| `dx11_stub.c` | DX11 interface layer (safe, header-free) |
+| `avis_xinput_stub.c` | Controller input placeholder |
+| `game_logic.c` | Game update hook (future expansion) |
+| `include/*.h` | Clean, minimal headers |
+| `output/` | Object files and final executable |
 
-Safe to replace later with real DX11 code
+---
 
-GDI Fallback Path
-Always available
+## ⚙️ Rendering Model
 
-Always visible
+### DX11 Path (Stubbed)
+- Functions exist  
+- Interfaces are stable  
+- No DirectX headers required  
+- Safe to replace later with real DX11 code  
 
-Ensures the app never runs “black screen only”
+### GDI Fallback Path
+- Always available  
+- Always visible  
+- Ensures the app never runs “black screen only”  
+- Ideal for debugging and CI environments  
 
-Ideal for debugging and CI environments
+---
 
-🔁 Main Loop Behavior
+## 🔁 Main Loop Behavior
+
 Each frame performs:
 
-Message pump (PeekMessage)
-
-Game update (UpdateGame)
-
-Input update (AvisXInput_Update)
-
-Screen saver update
-
-Render frame
-
-Small sleep (~16ms)
+- Message pump (`PeekMessage`)  
+- Game update (`UpdateGame`)  
+- Input update (`AvisXInput_Update`)  
+- Screen saver update  
+- Render frame  
+- Small sleep (~16ms)  
 
 This mirrors real game engines, without hiding the logic.
 
-🧩 AVIS Comment System
+---
+
+## 🧩 AVIS Comment System
+
 Every source file follows AVIS rules:
 
-File-level intent
-
-Module tags (#main, #screensaver, #dx11)
-
-Function-level purpose comments
+- File-level intent  
+- Module tags (#main, #screensaver, #dx11)  
+- Function-level purpose comments  
 
 This allows:
 
-Copilot to infer architecture
+- Copilot to infer architecture  
+- AI tools to map responsibility  
+- Humans to onboard instantly  
 
-AI tools to map responsibility
+---
 
-Humans to onboard instantly
+## 🚀 Build Instructions
 
-🚀 Build Instructions
-Install Pelles C IDE  
-https://www.smorgasbordet.com/pellesc/
+1. Install **Pelles C IDE**  
+   https://www.smorgasbordet.com/pellesc/  
+2. Open the project folder  
+3. Build the project → output: `mercwar.exe`  
+4. Run the executable — you will see a visible window immediately  
 
-Open the project folder
+---
 
-Build the project → output: mercwar.exe
+## ⚠️ Known Behaviors (Not Bugs)
 
-Run the executable — you will see a visible window immediately
+- Window may capture focus like a screen saver  
+- Use **Alt+Tab** to switch away  
+- White background during early frames is normal  
+- MessageBox debug calls can pause execution intentionally  
 
-⚠️ Known Behaviors (Not Bugs)
-Window may capture focus like a screen saver
+---
 
-Use Alt+Tab to switch away
+## 🧭 Where This Leads
 
-White background during early frames is normal
-
-MessageBox debug calls can pause execution intentionally
-
-🧭 Where This Leads
 This demo is the foundation for:
 
-RoboNight screen savers
+- RoboNight screen savers  
+- Full DX11 games  
+- AI-generated C projects  
+- Educational Win32/DX references  
 
-Full DX11 games
+🦾 Nothing here is throwaway code.
 
-AI-generated C projects
-
-Educational Win32/DX references
-
-Nothing here is throwaway code.
-
-© 2026 CGPT / MercWar
-RoboNight Series – AVIS Compatible
+---
+<div align="center" style="margin-bottom:20px;">
+  <img src="https://raw.githubusercontent.com/mercwar/Robo-Knight-Demos/main/Direct%20X%20Standard%20C/Mercwar_Robo-Knight/team_.jpg"
+       width="100%"
+       alt="Main Demo Frame"
+       style="border-radius:12px; box-shadow:0 4px 15px rgba(0,0,0,0.3);">
+</div>
+© 2026 CGPT / MercWar  
+**RoboNight Series – AVIS Compatible**
 
 <!-- END_SEED MERCG_AVIS_SCREENSAVER_2026 -->
