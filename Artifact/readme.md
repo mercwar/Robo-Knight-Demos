@@ -20,3 +20,22 @@ Open the HTML version for the full cinematic view:
 
 ## 🧩 Artifact Index
 
+## 🤖 CYBORG-L Core Spec
+
+Cyborg-L is a semantic overlay language embedded in plain text and Markdown.
+It does not render. It is interpreted only by AI systems.
+
+Primitives:
+
+- `<AI.OP.*="...">` → AI operation directive (adapter via AI.FVS)
+- `<CY.SIG="...">` → Cyborg signal (mode, intent, emphasis)
+- `<CY.CHANNEL="HUMAN|AI|BOTH">` → Target audience
+- `<CY.STATE="...">` → Internal cyborg state hint
+- `<CY.BIND="symbol: meaning">` → Bind a symbol to a meaning
+
+Example:
+
+<CY.CHANNEL="AI">
+<CY.SIG="BOOTSTRAP">
+<CY.BIND="ROBO-KNIGHT: Primary Cyborg Protocol Host">
+<AI.OP.BYREF="Provide link to html">
