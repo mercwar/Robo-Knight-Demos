@@ -7,82 +7,99 @@ DATE: 2026-01-14
 
 # 🚀 AVIS Screen Saver & Game Template Demo – RoboNight
 
-**DirectX 11 in Standard C** — minimal DX11/GDI screen saver with AVIS-style modular structure and AI-parsable comments. 🖥️🎮
+**DirectX 11 in Standard C** — a minimal, real Win32 application that demonstrates
+how to structure a screen saver or game-style render loop using **DX11 stubs,
+GDI fallback rendering, and AVIS modular design**.
+
+This project is intentionally designed to compile cleanly in **Pelles C**,
+without requiring DirectX SDK headers, while still preserving a **future-proof
+DX11 interface**.
+
+---
+
+## 🧠 What This Project Is (and Is Not)
+
+### ✅ This project IS:
+- A **real Win32 executable**, not a mockup
+- A **screen saver–style render loop** that can become a game
+- A **Standard C (C89/C90-compatible)** codebase
+- A **DX11-ready architecture** with safe stubs
+- An **AVIS-compliant AI-readable project**
+- A **teaching artifact** for humans *and* Copilot
+
+### ❌ This project is NOT:
+- A C++ engine
+- A COM-heavy DirectX tutorial
+- A framework that hides Windows internals
+- A prebuilt engine with magic macros
+- Dependent on external SDKs to compile
 
 ---
 
 ## 🖼️ Primary Demo Frame
 
 <div align="center" style="margin-bottom:20px;">
-  <img src="https://raw.githubusercontent.com/mercwar/Robo-Knight-Demos/main/Direct%20X%20Standard%20C/Mercwar_Robo-Knight/Copilot_20260114_020131.png" width="80%" alt="Main Demo Frame" style="border-radius:12px; box-shadow:0 4px 15px rgba(0,0,0,0.3);">
+  <img src="https://raw.githubusercontent.com/mercwar/Robo-Knight-Demos/main/Direct%20X%20Standard%20C/Mercwar_Robo-Knight/Copilot_20260114_020131.png"
+       width="80%"
+       alt="Main Demo Frame"
+       style="border-radius:12px; box-shadow:0 4px 15px rgba(0,0,0,0.3);">
 </div>
+
+This frame represents the **visual target** of the screen saver demo.
+Even when DX11 is stubbed, the application **still renders visible output**
+using GDI so developers always see *something working*.
 
 ---
 
-## 🧍 Realistic Full-Body Frames
+## 🧍 Realistic Full-Body Reference Frames
+
+These images are **intentional reference anchors**, not decoration.
+
+They serve three purposes:
+1. Visual grounding for future RoboNight scenes
+2. Stable context for AI/Copilot reasoning
+3. Aesthetic continuity across the series
 
 <div align="center" style="margin-bottom:20px;">
-  <img src="https://raw.githubusercontent.com/mercwar/Robo-Knight-Demos/main/Direct%20X%20Standard%20C/Mercwar_Robo-Knight/realistic%20full-body%20.png" width="30%" alt="Full Body 1" style="margin:10px; border-radius:10px; box-shadow:0 4px 10px rgba(0,0,0,0.3);">
-  <img src="https://raw.githubusercontent.com/mercwar/Robo-Knight-Demos/main/Direct%20X%20Standard%20C/Mercwar_Robo-Knight/realistic%20full-body12%20.png" width="30%" alt="Full Body 2" style="margin:10px; border-radius:10px; box-shadow:0 4px 10px rgba(0,0,0,0.3);">
-  <img src="https://raw.githubusercontent.com/mercwar/Robo-Knight-Demos/main/Direct%20X%20Standard%20C/Mercwar_Robo-Knight/realistic%20full-body55%20.png" width="30%" alt="Full Body 3" style="margin:10px; border-radius:10px; box-shadow:0 4px 10px rgba(0,0,0,0.3);">
+  <img src="https://raw.githubusercontent.com/mercwar/Robo-Knight-Demos/main/Direct%20X%20Standard%20C/Mercwar_Robo-Knight/realistic%20full-body%20.png" width="30%">
+  <img src="https://raw.githubusercontent.com/mercwar/Robo-Knight-Demos/main/Direct%20X%20Standard%20C/Mercwar_Robo-Knight/realistic%20full-body12%20.png" width="30%">
+  <img src="https://raw.githubusercontent.com/mercwar/Robo-Knight-Demos/main/Direct%20X%20Standard%20C/Mercwar_Robo-Knight/realistic%20full-body55%20.png" width="30%">
 </div>
 
 ---
 
-## 📌 Overview
+## 📌 High-Level Overview
 
-This demo includes:
+This demo implements the **canonical AVIS runtime loop**:
 
-- 🪟 Win32 window creation & message loop  
-- ⚡ DX11 stubbed rendering (init/shutdown)  
-- 🌌 GDI fallback for visible output  
-- 🔁 Game-ready update loop  
-- 🤖 AVIS-style comments for AI/Copilot parsing  
-- 🧠 Global context: `g_hDC`, `g_screenWidth`, `g_screenHeight`  
+1. Create a Win32 window
+2. Acquire a device context (`HDC`)
+3. Initialize DX11 **stubs**
+4. Enter a frame-based loop
+5. Update logic
+6. Render (DX11 or GDI)
+7. Shutdown cleanly
 
----
-
-## 📁 File Structure
-
-| File | Description |
-|------|-------------|
-| `avis_main.c` | Entry point & message loop |
-| `avis_screen_saver.c` | Screen saver logic & frame updates |
-| `dx11_stub.c` | DX11 stubbed rendering |
-| `avis_xinput_stub.c` | Controller input stub |
-| `game_logic.c` | Game update logic |
-| `include/*.h` | Headers for DX, screen saver, XInput |
-| `output/` | Compiled objects & executables |
+### Core concepts demonstrated:
+- 🪟 Win32 window creation & message pump
+- ⚡ DX11 initialization/shutdown *without headers*
+- 🌌 GDI fallback rendering for guaranteed visuals
+- 🔁 Game-style update loop
+- 🤖 AVIS comments designed for AI parsing
+- 🧠 Shared global runtime state
 
 ---
 
-## ⚙️ Features
+## 🧠 Global Runtime Model (Important)
 
-- 💻 AVIS screen saver template  
-- 🖌️ Stubbed rendering (DX11 or GDI fallback)  
-- 🔧 Optional debug frames (MessageBox)  
-- 🌍 Cross-file global management  
-- 🧠 AI/Copilot-friendly comments  
+This project uses **explicit, shared globals** on purpose.
 
----
+These are **not accidental** — they form the *runtime contract* between modules.
 
-## 🚀 Build Instructions
-
-1. Install [Pelles C IDE](https://www.smorgasbordet.com/pellesc/)  
-2. Open the project folder  
-3. Build `mercwar.exe` ✅  
-4. Run to view the screen saver demo 🎮  
-
----
-
-## ⚠️ Notes
-
-- Windows 10/11 recommended  
-- DirectX headers optional (stubs included)  
-- Designed for 1024×768 display and GitHub dark theme  
-
----
-
-© 2026 CGPT / MercWar
-
-<!-- END_SEED MERCG_AVIS_SCREENSAVER_2026 -->
+```c
+int   g_screenWidth;
+int   g_screenHeight;
+HDC   g_hDC;
+void* g_pDXDevice;
+void* g_pDXContext;
+void* g_pDXSwapChain;
