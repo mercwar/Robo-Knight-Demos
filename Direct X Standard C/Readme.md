@@ -6,60 +6,133 @@ DATE: 2026-01-14
 -->
 
 # 💻 RoboNight – Standard C Apps + AVIS
-<div style="text-align:center; margin-top:20px;">
-  <img src="https://raw.githubusercontent.com/mercwar/Cyborg/main/Mercwar_Robo-Knight/Copilot_20260114_015204.png" 
-       alt="Standard C App Demo 2" style="max-width:70%; border-radius:12px; box-shadow:0 4px 15px rgba(0,0,0,0.3);">
+
+<div align="center" style="margin-top:20px; margin-bottom:25px;">
+  <img src="https://raw.githubusercontent.com/mercwar/Cyborg/main/Mercwar_Robo-Knight/Copilot_20260114_015204.png"
+       alt="Standard C App Demo"
+       style="max-width:70%; border-radius:12px; box-shadow:0 4px 15px rgba(0,0,0,0.35);">
 </div>
 
+The **Standard C Apps** directory is the **core engine layer** of the entire  
+**Robo‑Knight / Cyborg** project.  
+Every executable in this folder is a **pure C89/C90 Win32 application** that  
+defines the runtime rules, rendering model, and AVIS modular structure used  
+across the Robo‑Knight series.
 
-This part of the RoboNight series includes all **Standard C applications** built with the **AVIS modular structure**, DX11 stubs, and AI‑friendly annotations.
+These programs are not demos — they are the **Cyborg Core**, the foundation  
+from which all Robo‑Knight applications evolve.
 
 ---
 
-## 📌 Overview
-- Modular AVIS apps in Standard C  
+# 🧠 How the Standard C Apps Fit Into the Robo‑Knight Universe
+
+The Robo‑Knight series is built in **layers**, and this directory is **Layer 0**.
+
+### **Layer 0 — Standard C Apps (THIS DIRECTORY)**  
+The base operating layer of the Cyborg universe.  
+Defines:
+- window creation  
+- DX11 stubbed rendering  
+- GDI fallback  
+- global runtime model  
+- AVIS module structure  
+- update loops  
+- input stubs  
+- file‑level intent and AI‑readable architecture  
+
+### **Layer 1 — Screen Saver Demo**  
+Uses the Standard C runtime as its engine.
+
+### **Layer 2 — Robo‑Knight Character Demos**  
+Cinematic scenes built on the same runtime.
+
+### **Layer 3 — Future Games / Tools / AI‑Generated Apps**  
+All inherit the rules defined here.
+
+**This directory is the “Cyborg OS” of the Robo‑Knight universe.**
+
+---
+
+# 📌 Overview of the Standard C Runtime
+
+- Modular AVIS apps in pure Standard C  
 - DX11 stubs for safe compilation  
 - XInput stubs & frame update logic  
 - GDI fallback for visible output  
 - AVIS annotation for AI parsing  
 - Cross‑file global management  
+- Zero dependencies beyond Win32 + Pelles C  
+
+These apps are intentionally minimal so that **AI tools and humans** can  
+understand the architecture instantly.
 
 ---
 
-## 📁 File Structure
+# 📁 File Structure (Explained)
 
 | File | Description |
 |------|-------------|
-| `dx_helpers.c` | DX11 helper & rendering functions |
-| `game_logic.c` | Stub frame updates |
-| `avis_main.c` | Main window & loop |
-| `avis_xinput_stub.c` | Controller input stub |
-| `include/*.h` | Header files |
+| `avis_main.c` | Main window, WinMain, message loop |
+| `dx_helpers.c` | DX11 helper & rendering stubs |
+| `avis_xinput_stub.c` | Controller input placeholder |
+| `game_logic.c` | Frame update logic |
+| `include/*.h` | Clean headers for AVIS modules |
 | `output/` | Compiled objects & binaries |
 
----
-
-## ⚙️ Features
-- 💻 Full AVIS modular app structure  
-- 🖌️ Stubbed rendering (DX11 + GDI fallback)  
-- 🌍 Cross‑file globals for AI compatibility  
-- 🔧 Debuggable MessageBox frames  
+Each file is a **module** in the AVIS system — self‑contained, readable,  
+and designed for AI‑assisted reasoning.
 
 ---
 
-## 🚀 Build Instructions
-1. Install [Pelles C IDE](https://www.smorgasbordet.com/pellesc/) 🛠️  
-2. Open project folder  
-3. Build all `.c` sources into `mercwar.exe`  
-4. Run to view stubbed frames & demo functionality 🎮  
+# ⚙️ Features of the Standard C Runtime
+
+- 💻 **Full AVIS modular structure**  
+- 🖌️ **DX11 stubbed rendering** (future‑proof)  
+- 🌍 **GDI fallback** (always visible)  
+- 🔧 **Debuggable MessageBox frames**  
+- 🧠 **Global runtime model** (intentional, not accidental)  
+- 🧩 **AI‑friendly comments**  
+
+This is the **canonical template** for all Robo‑Knight applications.
 
 ---
 
-<div style="text-align:center; margin-bottom:16px;">
-  <img src="https://raw.githubusercontent.com/mercwar/Cyborg/main/Mercwar_Robo-Knight/tita-mech.png" 
-       alt="Standard C App Demo" style="max-width:70%; border-radius:12px; box-shadow:0 4px 15px rgba(0,0,0,0.3);">
+# 🚀 Build Instructions
+
+1. Install **Pelles C IDE**  
+2. Open the Standard C Apps directory  
+3. Build all `.c` files → produces `mercwar.exe`  
+4. Run the executable  
+5. Observe the AVIS runtime in action  
+
+---
+
+<div align="center" style="margin-top:25px; margin-bottom:25px;">
+  <img src="https://raw.githubusercontent.com/mercwar/Cyborg/main/Mercwar_Robo-Knight/tita-mech.png"
+       alt="Standard C App Demo 2"
+       style="max-width:70%; border-radius:12px; box-shadow:0 4px 15px rgba(0,0,0,0.35);">
 </div>
 
-© 2026 CGPT / MercWar
+# 🧭 The Goal of the Cyborg Project
+
+The **Cyborg repository** is not just a collection of demos —  
+it is a **living technical universe** where:
+
+- every subsystem is modular  
+- every module is readable  
+- every file is AI‑parsable  
+- every app is a teaching artifact  
+- every demo is a stepping stone to a full game engine  
+
+The Standard C Apps directory is the **root of that universe**.
+
+Everything else —  
+screen savers, demos, characters, worlds, tools —  
+all grow from the **Cyborg Core** defined here.
+
+---
+
+© 2026 CGPT / MercWar  
+**RoboNight Series – AVIS Compatible**
 
 <!-- END_SEED MERCG_AVIS_STANDARDC_2026 -->
