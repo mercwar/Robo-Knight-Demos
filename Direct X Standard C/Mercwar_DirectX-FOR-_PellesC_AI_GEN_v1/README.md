@@ -60,7 +60,7 @@ They serve three purposes:
 2. Stable context for AI/Copilot reasoning  
 3. Aesthetic continuity across the series  
 
-### 📸 Full‑Body Table (Corrected Display)
+### 📸 Full‑Body Table
 
 | Frame 1 | Frame 2 | Frame 3 |
 |--------|---------|---------|
@@ -96,7 +96,7 @@ This project uses **explicit, shared globals** on purpose.
 
 These are **not accidental** — they form the *runtime contract* between modules.
 
-```c
+
 int   g_screenWidth;
 int   g_screenHeight;
 HDC   g_hDC;
