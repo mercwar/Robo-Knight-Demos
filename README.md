@@ -8,7 +8,7 @@ DATE: 2026-01-14
 # ⚔️ RoboKnight – The Cyborg Engine & Application Suite
 
 <div align="center" style="margin-bottom:25px;">
-  <img src="https://raw.githubusercontent.com/mercwar/Robo-Knight-Demos/main/Direct%20X%20Standard%20C/Mercwar_Robo-Knight/Photorealistic%20depic%20Copy.png"
+  <img src="https://raw.githubusercontent.com/mercwar/Robo-Knight-Demos/main/Direct%20X%20Standard%20C/Mercwar_Robo-Knight/realistic%20portrait%2033o.png"
        alt="RoboKnight Greeting Hero"
        style="max-width:85%; border-radius:14px; box-shadow:0 6px 20px rgba(0,0,0,0.45);">
 </div>
@@ -75,7 +75,11 @@ A distributed system where:
 ---
 
 # 🌐 The Network Vision
-
+<div align="center" style="margin-top:35px; margin-bottom:25px;">
+  <img src="https://raw.githubusercontent.com/mercwar/Robo-Knight-Demos/main/Direct%20X%20Standard%20C/Mercwar_Robo-Knight/Create%20a%20photorertewal%2C%20.png"
+       alt="RoboKnight Goodbye"
+       style="max-width:85%; border-radius:14px; box-shadow:0 6px 20px rgba(0,0,0,0.45);">
+</div>
 RoboKnight is designed to become a **connected universe**.
 
 ### **The plan:**
@@ -165,7 +169,7 @@ This is why the architecture works.
 ---
 
 <div align="center" style="margin-top:35px; margin-bottom:25px;">
-  <img src="https://raw.githubusercontent.com/mercwar/Robo-Knight-Demos/main/Direct%20X%20Standard%20C/Mercwar_Robo-Knight/realistic%20full-body%20.png"
+  <img src="https://raw.githubusercontent.com/mercwar/Robo-Knight-Demos/main/Direct%20X%20Standard%20C/Mercwar_Robo-Knight/silver%20armor.png"
        alt="RoboKnight Goodbye"
        style="max-width:85%; border-radius:14px; box-shadow:0 6px 20px rgba(0,0,0,0.45);">
 </div>
