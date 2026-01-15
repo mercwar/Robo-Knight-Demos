@@ -1,57 +1,43 @@
-<!-- BEGIN_SEED MERCG_AVIS_SCREENSAVER_2026
-GUID: AVIS-SCREEN-SAVER-2026
-TITLE: AVIS Screen Saver Demo – RoboNight Series
-AUTHOR: CGPT / MercWar
-DATE: 2026-01-14
--->
+<!-- BEGIN_SEED MERCG_AVIS_SCREENSAVER_2026 -->
 
-# 🚀 AVIS Screen Saver Demo – RoboNight Series
+# 🚀 AVIS Screen Saver & Game Template Demo
 
-<div style="text-align:center;">
-  <img src="https://raw.githubusercontent.com/mercwar/Cyborg/main/Mercwar_Robo-Knight/Copilot_20260114_022304.png" 
-       alt="Screen Saver Demo" style="max-width:80%; border-radius:12px; box-shadow: 0 4px 15px rgba(0,0,0,0.3);">
-</div>
-
-**DirectX in Standard C** – Minimal DX11 setup, screen saver demo, and AVIS-style structured comments for AI-assisted coding. 🖥️🎮
+**DirectX 11 in Standard C** — screen saver + game loop template.
 
 ---
 
-## 📌 Overview
-This demo shows a simple screen saver using:
+## 🖼️ Demo Frames
 
-- Window creation & message loop 🪟  
-- DX11 stubs ⚡  
-- Moving shapes via GDI 🌌  
-- AVIS-style comments for AI tooling 🤖  
+<p align="center">
+  <img src="https://raw.githubusercontent.com/mercwar/Robo-Knight-Demos/main/Direct%20X%20Standard%20C/Mercwar_Robo-Knight/Copilot_20260114_020131.png" width="80%">
+</p>
 
----
-
-## 📁 File Structure
-
-| File | Description |
-|------|-------------|
-| `avis_main.c` | Entry point & window loop |
-| `avis_screen_saver.c` | Screen saver logic & rendering |
-| `dx11_stub.c` | DX11 stubs (init/shutdown/render) |
-| `avis_xinput_stub.c` | Controller input stub |
-| `game_logic.c` | Frame update stub |
-| `include/*.h` | Header files |
-| `output/` | Compiled binaries & objects |
+<p align="center">
+  <img src="https://raw.githubusercontent.com/mercwar/Robo-Knight-Demos/main/Direct%20X%20Standard%20C/Mercwar_Robo-Knight/realistic%20full-body.png" width="30%">
+  <img src="https://raw.githubusercontent.com/mercwar/Robo-Knight-Demos/main/Direct%20X%20Standard%20C/Mercwar_Robo-Knight/realistic%20full-body12.png" width="30%">
+  <img src="https://raw.githubusercontent.com/mercwar/Robo-Knight-Demos/main/Direct%20X%20Standard%20C/Mercwar_Robo-Knight/realistic%20full-body55.png" width="30%">
+</p>
 
 ---
 
-## 🚀 Build Instructions
-1. Install [Pelles C IDE](https://www.smorgasbordet.com/pellesc/) 🛠️  
-2. Open project folder in Pelles C IDE 📂  
-3. Build `mercwar.exe` ✅  
-4. Run the executable to view the screen saver 🎉  
+## ⚙️ Features
+- Win32 window loop
+- DX11 stub or GDI fallback
+- Global render context
+- Game-ready update loop
 
 ---
 
-## ⚠️ Notes
-- Windows 10/11 recommended  
-- DirectX headers optional (stubs included)  
+## 🧱 Files
+
+| File | Role |
+|----|----|
+| `avis_main.c` | Entry point |
+| `avis_screen_saver.c` | Frame logic |
+| `dx11_stub.c` | DX bootstrap |
+| `game_logic.c` | Tick loop |
 
 ---
 
+© 2026 MercWar  
 <!-- END_SEED MERCG_AVIS_SCREENSAVER_2026 -->
