@@ -2,7 +2,7 @@
 # 🛡️ ROBO_KNIGHT_FIO — File I/O Engine DLL  
 *A modular, portable, C‑based file engine for Windows*
 
-![FIO Hero](Direct%20X%20Standard%20C/Mercwar_Robo-Knight/Copilot_20260116_093219.png)
+![FIO Hero](../../Direct%20X%20Standard%20C/Mercwar_Robo-Knight/Copilot_20260116_093219.png)
 
 ---
 
