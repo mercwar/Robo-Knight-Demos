@@ -16,6 +16,7 @@ The SDK includes a minimal EXE demonstrating dynamic loading and usage.
 
 ## 📂 Project Structure
 
+```
 ROBO_KNIGHT_FIO/
 │
 ├── ROBO_KNIGHT_FIO.dll        # The engine DLL
@@ -32,10 +33,9 @@ ROBO_KNIGHT_FIO/
 │   └── pages.c
 │
 └── sdk/
-├── main.c                 # Example EXE
-└── rk_exepath.h           # EXE path helper
-
-Code
+    ├── main.c                 # Example EXE
+    └── rk_exepath.h           # EXE path helper
+```
 
 ---
 
@@ -71,16 +71,27 @@ Code
 
 ```c
 COSMIC_FIO_ *COSMIC_FIO_Init(const char *root, char letter);
-Accessors
-c
+```
+
+### Accessors
+
+```c
 GF_    *COSMIC_FIO_GetGF(void);
 DRIVE_ *COSMIC_FIO_GetDrive(void);
-File I/O
-c
+```
+
+### File I/O
+
+```c
 int FileIO_SaveGF(const GF_ *gf, const void *data, uint64_t size);
 int FileIO_LoadGF(const GF_ *gf, void *data, uint64_t maxSize, uint64_t *outSize);
-🧪 SDK Example
-c
+```
+
+---
+
+## 🧪 SDK Example
+
+```c
 #include <windows.h>
 #include <stdio.h>
 #include <string.h>
@@ -110,17 +121,37 @@ int main(void)
 
     printf("Loaded: %s\n", buffer);
 }
-🛠️ Building
-DLL (Pelles C)
-Code
+```
+
+---
+
+## 🛠️ Building
+
+### DLL (Pelles C)
+
+```
 pocc /Tx64 cosmic_fio.c fileio.c drive.c gf.c dllmain.c pages.c
 polib /out:ROBO_KNIGHT_FIO.lib cosmic_fio.obj fileio.obj drive.obj gf.obj dllmain.obj pages.obj
-SDK EXE
-Code
+```
+
+### SDK EXE
+
+```
 pocc main.c
 polink main.obj ROBO_KNIGHT_FIO.lib
-📜 License
+```
+
+---
+
+## 📜 License
+
 MIT or your preferred license.
 
-🤖 Author
+---
+
+## 🤖 Author
+
 Demon — architect of the ROBO KNIGHT ceremonial systems.
+-
+
+If you want this README split into AVIS‑style manifests, embedded into a ceremonial homepage, or versioned as a seed artifact, I can forge that next.
