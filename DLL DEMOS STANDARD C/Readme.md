@@ -3,7 +3,7 @@
 
 `[Who wouldn't want a DLL, that writes files for you!]`
 
- ![DLL Demo](Direct%20X%20Standard%20C/Mercwar_Robo-Knight/Copilot_20260116_024345.png)
+ ![DLL Demo](../Direct%20X%20Standard%20C/Mercwar_Robo-Knight/Copilot_20260116_024345.png)
 ---
 
 ## 🧩 Overview
