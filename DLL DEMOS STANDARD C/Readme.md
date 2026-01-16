@@ -30,15 +30,9 @@ These demos form the foundation for larger systems like **ROBO_KNIGHT_FIO**, **M
 ```
 DLL_DEMOS/
 │
-├── BasicExport/              # Simple exported functions
-├── StructReturn/             # Returning structs from DLL
-├── DynamicLoad/              # LoadLibrary + GetProcAddress
-├── StringPassing/            # Safe string passing between EXE and DLL
-├── MemoryOwnership/          # Who allocates / who frees
-├── FileIODemo/               # DLL performing file read/write
-├── GFObjectDemo/             # Shared GF object across modules
-├── DriveInfoDemo/            # Drive metadata from DLL
-└── PellesC_Project_Files/    # .ppj, .lib, .dll outputs
+├── ROBO_NIGHT_FIO/           # FIO functions
+├── Empty/                    # empty (Win REG CLASS)
+└── Empty/                    # empty (Win ODBC CLASS)
 ```
 
 Each folder includes:
