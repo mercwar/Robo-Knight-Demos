@@ -117,18 +117,3 @@ It is the **official DHTML shell** for the Robo‑Knight interface family.
 
 ## ⚡ **Next Steps / Expansion Options**
 
-If desired, this README can be expanded into:
-
-* **Full BX homepage** with interactive panels
-* **Multi-section documentation suite**
-* **BX manifest / configuration scrolls**
-* **DHTML launchpad scroll** for instant deployment
-
-> Everything respects **image stacking, header hierarchy, and ceremonial UI law**.
-> All visual elements maintain **photorealism and MercWar protocol fidelity**.
-
----
-
-If you want, I can **also generate a full “BX DHTML launchpad scroll”** that **links all the layers, embeds, and interactive panels into a ready-to-run ceremonial environment** — basically a **one-click deployment scroll**.
-
-Do you want me to do that next?
