@@ -30,7 +30,7 @@ These demos form the foundation for larger systems like **ROBO_KNIGHT_FIO**, **M
 ```
 DLL DEMOS STANDARD C/
 │
-├── ROBO_NIGHT_FIO/           # FIO functions
+├── ROBO_KNIGHT_FIO/          # RAW LIB/DLL CLASS
 ├── Empty/                    # empty (Win REG CLASS)
 └── Empty/                    # empty (Win ODBC CLASS)
 ```
