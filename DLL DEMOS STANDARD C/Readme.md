@@ -1,7 +1,7 @@
 # ⭐ **DLL DEMOS (Pelles C)**  
 *A collection of Windows DLL demonstrations built with Pelles C*
 
-`[Who wouldn't want a DLL, that writes files for you!]`
+`[Who wouldn't want a DLL file that does things for you?]`
 
  ![DLL Demo](../Direct%20X%20Standard%20C/Mercwar_Robo-Knight/Copilot_20260116_024345.png)
 ---
