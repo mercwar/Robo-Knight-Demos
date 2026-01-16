@@ -151,7 +151,5 @@ MIT or your preferred license.
 
 ## 🤖 Author
 
-Demon — architect of the ROBO KNIGHT ceremonial systems.
--
+FFF Demonizer — architect of the ROBO KNIGHT ceremonial systems.
 
-If you want this README split into AVIS‑style manifests, embedded into a ceremonial homepage, or versioned as a seed artifact, I can forge that next.
