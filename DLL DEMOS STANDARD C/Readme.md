@@ -114,6 +114,3 @@ MIT or your preferred license.
 
 Demon — forging ceremonial DLLs with precision and law.
 
----
-
-If you want, I can now generate the **ROBO_KNIGHT_FIO README** as a separate file, matching this style and ready to drop into its folder.
