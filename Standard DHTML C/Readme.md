@@ -116,4 +116,8 @@ It is the **official DHTML shell** for the Robo‑Knight interface family.
 ---
 
 ## ⚡ **Next Steps / Expansion Options**
+Hosted Internet Connection
+---
 
+© 2026 MercWar / CGPT  
+**RoboKnight Series – AVIS Compatible**
