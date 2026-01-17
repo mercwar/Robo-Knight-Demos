@@ -119,9 +119,10 @@ It is the **official DHTML shell** for the Robo‑Knight interface family.
 Hosted Internet Connection
 ---
 
+
 ## 🤖 Author
 
-Demon — forging ceremonial DHTML with precision.
+Demonizer — forging ceremonial DHTML with precision.
 
 ---
 
