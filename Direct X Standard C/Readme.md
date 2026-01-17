@@ -108,7 +108,7 @@ This is the **canonical template** for all Robo‑Knight applications.
 ---
 
 <div align="center" style="margin-top:25px; margin-bottom:25px;">
-  <img src="https://raw.githubusercontent.com/mercwar/Cyborg/main/Mercwar_Robo-Knight/tita-mech.png"
+  <img src="https://raw.githubusercontent.com/mercwar/Cyborg/main/Mercwar_Robo-Knight/Copilot_20260116_021843.png"
        alt="Standard C App Demo 2"
        style="max-width:70%; border-radius:12px; box-shadow:0 4px 15px rgba(0,0,0,0.35);">
 </div>
