@@ -141,9 +141,11 @@ pocc main.c
 polink main.obj ROBO_KNIGHT_FIO.lib
 ```
 
-## 📜 License
+# 📜 License
 
-MIT or your preferred license.
+📝 MIT or your preferred license.
+--
+🛡️ This module is part of the ROBO‑KNIGHT toolchain. Use, modify, and integrate freely within your project.
 
 ---
 
