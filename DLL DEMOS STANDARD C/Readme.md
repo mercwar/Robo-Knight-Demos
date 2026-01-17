@@ -114,10 +114,3 @@ FFF Demonizer — architect of forging ceremonial DLLs with precision and law.
 
 © 2026 CGPT / MercWar  
 **RoboNight Series – AVIS Compatible**
-
-
----
-
-© 2026 CGPT / MercWar  
-**RoboNight Series – AVIS Compatible**
-
