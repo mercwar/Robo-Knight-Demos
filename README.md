@@ -186,6 +186,10 @@ distributed, AI‑assisted, multiplayer‑capable Cyborg Engine.
 
 ---
 
+## 🤖 Author
+
+Demonizer — forging ceremonial Demos with precision.
+
 © 2026 MercWar / CGPT  
 **RoboKnight Series – AVIS Compatible**
 
