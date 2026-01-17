@@ -1,9 +1,9 @@
 # ⭐ **DLL DEMOS (Pelles C)**  
 *A collection of Windows DLL demonstrations built with Pelles C*
 
-`[Who wouldn't want a DLL file that does things for you?]`
+`[Who wouldn't want a DLL file to do the things for you?]`
 
- ![DLL Demo](../Direct%20X%20Standard%20C/Mercwar_Robo-Knight/Copilot_20260116_024345.png)
+ ![DLL Demo](../Direct%20X%20Standard%20C/Mercwar_Robo-Knight/SHINE/Copilot_20260116_192312.png)
 ---
 
 ## 🧩 Overview
@@ -75,7 +75,7 @@ FN_ADD Add = (FN_ADD)GetProcAddress(h, "Add");
 
 printf("Result = %d\n", Add(2, 3));
 ```
-
+ ![DLL Demo](../Direct%20X%20Standard%20C/Mercwar_Robo-Knight/Copilot_20260116_024345.png)
 ---
 
 ## 🧪 Why Pelles C?
