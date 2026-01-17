@@ -141,8 +141,6 @@ pocc main.c
 polink main.obj ROBO_KNIGHT_FIO.lib
 ```
 
----
-
 ## 📜 License
 
 MIT or your preferred license.
@@ -151,5 +149,10 @@ MIT or your preferred license.
 
 ## 🤖 Author
 
-FFF Demonizer — architect of the ROBO KNIGHT ceremonial systems.
+FFF Demonizer — architect of forging ceremonial DLLs with precision and law.
+
+---
+
+© 2026 CGPT / MercWar  
+**RoboNight Series – AVIS Compatible**
 
