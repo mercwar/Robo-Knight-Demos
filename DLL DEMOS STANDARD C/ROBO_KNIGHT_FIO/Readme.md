@@ -122,7 +122,7 @@ int main(void)
     printf("Loaded: %s\n", buffer);
 }
 ```
-
+![FIO Hero](../../Direct%20X%20Standard%20C/Mercwar_Robo-Knight/SHINE/Copilot_20260116_181419.png)
 ---
 
 ## 🛠️ Building
