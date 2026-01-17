@@ -41,3 +41,7 @@ Example:
 <CY.SIG="BOOTSTRAP">
 <CY.BIND="ROBO-KNIGHT: Primary Cyborg Protocol Host">
 <AI.OP.BYREF="Provide link to html">
+---
+
+© 2026 CGPT / MercWar  
+**RoboNight Series – AVIS Compatible**
