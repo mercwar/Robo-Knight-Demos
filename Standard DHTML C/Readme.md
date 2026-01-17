@@ -119,5 +119,12 @@ It is the **official DHTML shell** for the Robo‑Knight interface family.
 Hosted Internet Connection
 ---
 
-© 2026 MercWar / CGPT  
-**RoboKnight Series – AVIS Compatible**
+## 🤖 Author
+
+Demon — forging ceremonial DHTML with precision.
+
+---
+
+© 2026 CGPT / MercWar  
+**RoboNight Series – AVIS Compatible**
+
