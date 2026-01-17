@@ -218,6 +218,13 @@ This demo is the foundation for:
        alt="Main Demo Frame"
        style="border-radius:12px; box-shadow:0 4px 15px rgba(0,0,0,0.3);">
 </div>
+
+## 🤖 Author
+
+Demon — forging ceremonial DirectX with precision.
+
+---
+
 © 2026 CGPT / MercWar  
 **RoboNight Series – AVIS Compatible**
 
