@@ -98,16 +98,23 @@ printf("Result = %d\n", Add(2, 3));
 
 ---
 
-## 📜 License
+# 📜 License
 
-MIT or your preferred license.
+📝 MIT or your preferred license.
+--
+🛡️ ROBO‑KNIGHT toolchain. Use, modify, and integrate freely within your project.
 
 ---
 
-
 ## 🤖 Author
 
-Demonizer — forging ceremonial DHTML with precision.
+FFF Demonizer — architect of forging ceremonial DLLs with precision and law.
+
+---
+
+© 2026 CGPT / MercWar  
+**RoboNight Series – AVIS Compatible**
+
 
 ---
 
