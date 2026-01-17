@@ -224,13 +224,13 @@ This demo is the foundation for:
 
 📝 MIT or your preferred license.
 --
-🛡️ ROBO‑KNIGHT DirectX. Use, modify, and integrate freely within your project.
+🛡️ ROBO‑KNIGHT DirectX Game Template. Use, modify, and integrate freely within your project.
 
 ---
 
 ## 🤖 Author
 
-FFF Demonizer — architect of forging ceremonial DirectX with precision.
+FFF Demonizer — architect of forging ceremonial DirectX Game Templates with precision.
 
 ---
 
