@@ -1,0 +1,11 @@
+﻿LIBRARY "WINREG"
+EXPORTS
+    WR_OpenKey
+    WR_CreateKey
+    WR_CloseKey
+    WR_WriteString
+    WR_ReadString
+    WR_WriteDword
+    WR_ReadDword
+    REG_GF_Init
+    REG_GF_ToString
