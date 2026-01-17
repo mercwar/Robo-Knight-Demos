@@ -1,6 +1,6 @@
 # Robo‑Knight Artifact Project  
 Merc‑G / AVIS / AI.FVS Protocol Artifacts
-
+![artifacts]/Direct%20X%20Standard%20C/Mercwar_Robo-Knight/SHINE/SILVER-ROBO-KNIGHT.jpg)
 This directory contains the operational artifacts used by Merc‑G and Robo‑Knight.
 These artifacts define protocol behavior, AI operation tags, and HTML‑linked
 documentation.
