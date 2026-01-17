@@ -219,13 +219,15 @@ This demo is the foundation for:
        style="border-radius:12px; box-shadow:0 4px 15px rgba(0,0,0,0.3);">
 </div>
 
+
 ## 🤖 Author
 
-Demon — forging ceremonial DirectX with precision.
+Demonizer — forging ceremonial DHTML with precision.
 
 ---
 
 © 2026 CGPT / MercWar  
 **RoboNight Series – AVIS Compatible**
+
 
 <!-- END_SEED MERCG_AVIS_SCREENSAVER_2026 -->
