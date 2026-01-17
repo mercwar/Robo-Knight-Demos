@@ -117,12 +117,20 @@ It is the **official DHTML shell** for the Robo‑Knight interface family.
 
 ## ⚡ **Next Steps / Expansion Options**
 Hosted Internet Connection
+
 ---
 
+# 📜 License
+
+📝 MIT or your preferred license.
+--
+🛡️ ROBO‑KNIGHT DHTML-X. Use, modify, and integrate freely within your project.
+
+---
 
 ## 🤖 Author
 
-Demonizer — forging ceremonial DHTML with precision.
+FFF Demonizer — architect of forging ceremonial DHTML-X with precision.
 
 ---
 
