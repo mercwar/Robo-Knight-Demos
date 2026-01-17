@@ -186,10 +186,17 @@ distributed, AI‑assisted, multiplayer‑capable Cyborg Engine.
 
 ---
 
+# 📜 License
+
+📝 MIT or your preferred license.
+--
+🛡️ ROBO‑KNIGHT Demos. Use, modify, and integrate freely within your project.
+
+---
 
 ## 🤖 Author
 
-Demonizer — forging ceremonial DHTML with precision.
+FFF Demonizer — architect of forging ceremonial Demos with precision.
 
 ---
 
