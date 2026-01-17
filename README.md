@@ -190,13 +190,13 @@ distributed, AI‑assisted, multiplayer‑capable Cyborg Engine.
 
 📝 MIT or your preferred license.
 --
-🛡️ ROBO‑KNIGHT Demos. Use, modify, and integrate freely within your project.
+🛡️ ROBO‑KNIGHT C/P/J Demos. Use, modify, and integrate freely within your project.
 
 ---
 
 ## 🤖 Author
 
-FFF Demonizer — architect of forging ceremonial Demos with precision.
+FFF Demonizer — architect of forging ceremonial C/P/J Demos with precision.
 
 ---
 
