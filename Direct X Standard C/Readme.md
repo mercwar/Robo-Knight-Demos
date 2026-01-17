@@ -136,13 +136,13 @@ all grow from the **Cyborg Core** defined here.
 
 📝 MIT or your preferred license.
 --
-🛡️ ROBO‑KNIGHT DirectX. Use, modify, and integrate freely within your project.
+🛡️ ROBO‑KNIGHT Standard C DirectX Pure API I/O. Use, modify, and integrate freely within your project.
 
 ---
 
 ## 🤖 Author
 
-FFF Demonizer — architect of forging ceremonial DirectX with precision.
+FFF Demonizer — architect of forging ceremonial Pure API DirectX I/O in Standard C with precision.
 
 ---
 
