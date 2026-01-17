@@ -108,3 +108,7 @@ MIT or your preferred license.
 
 Demon — forging ceremonial DLLs with precision and law.
 
+---
+
+© 2026 CGPT / MercWar  
+**RoboNight Series – AVIS Compatible**
