@@ -220,14 +220,21 @@ This demo is the foundation for:
 </div>
 
 
+# 📜 License
+
+📝 MIT or your preferred license.
+--
+🛡️ ROBO‑KNIGHT DirectX. Use, modify, and integrate freely within your project.
+
+---
+
 ## 🤖 Author
 
-Demonizer — forging ceremonial DHTML with precision.
+FFF Demonizer — architect of forging ceremonial DirectX with precision.
 
 ---
 
 © 2026 CGPT / MercWar  
 **RoboNight Series – AVIS Compatible**
-
-
+<!-- END_SEED MERCG_AVIS_CORE_2026 -->
 <!-- END_SEED MERCG_AVIS_SCREENSAVER_2026 -->
