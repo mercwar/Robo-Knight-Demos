@@ -176,18 +176,20 @@ Loaded Number: 777
 
 ---
 
-## 📜 **License**
+# 📜 License
 
-This module is part of the ROBO‑KNIGHT toolchain.  
-Use, modify, and integrate freely within your project.
+📝 MIT or your preferred license.
+--
+🛡️ This module is part of the ROBO‑KNIGHT toolchain. Use, modify, and integrate freely within your project.
 
 ---
 
 ## 🤖 Author
 
-Demon — forging ceremonial DLLs with precision and law.
+FFF Demonizer — architect of forging ceremonial DLLs with precision and law.
 
 ---
 
 © 2026 CGPT / MercWar  
 **RoboNight Series – AVIS Compatible**
+
