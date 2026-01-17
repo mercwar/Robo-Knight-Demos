@@ -44,11 +44,20 @@ Example:
 ---
 
 
+# 📜 License
+
+📝 MIT or your preferred license.
+--
+🛡️ ROBO‑KNIGHT Artifacts. Use, modify, and integrate freely within your project.
+
+---
+
 ## 🤖 Author
 
-Demonizer — forging ceremonial DHTML with precision.
+FFF Demonizer — architect of forging ceremonial Artifacts with precision.
 
 ---
 
 © 2026 CGPT / MercWar  
 **RoboNight Series – AVIS Compatible**
+
