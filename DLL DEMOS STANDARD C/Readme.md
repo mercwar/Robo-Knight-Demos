@@ -104,11 +104,13 @@ MIT or your preferred license.
 
 ---
 
+
 ## 🤖 Author
 
-Demon — forging ceremonial DLLs with precision and law.
+Demonizer — forging ceremonial DHTML with precision.
 
 ---
 
 © 2026 CGPT / MercWar  
 **RoboNight Series – AVIS Compatible**
+
