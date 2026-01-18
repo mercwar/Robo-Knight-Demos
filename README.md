@@ -8,16 +8,32 @@ DATE: 2026-01-14
 # ⚔️ RoboKnight – The Cyborg Engine & Application Suite
 
 <div align="center" style="margin-bottom:25px;">
-  <img src="https://raw.githubusercontent.com/mercwar/Robo-Knight-Demos/main/Direct%20X%20Standard%20C/Mercwar_Robo-Knight/realistic%20portrait%2033o.png"
+  <img src="https://raw.githubusercontent.com/mercwar/Robo-Knight-Demos/main/Direct%20X%20Standard%20C/Mercwar_Robo-Knight/SHINE/mercwar01_new_Technology.png"
        alt="RoboKnight Greeting Hero"
        style="max-width:85%; border-radius:14px; box-shadow:0 6px 20px rgba(0,0,0,0.45);">
 </div>
 
-**RoboKnight** is the unified technical universe built on top of the  
-**Cyborg Core**, a modular system of **Standard C applications**,  
-**DirectX‑ready rendering**, **AVIS‑structured modules**, and  
-future‑ready **network‑connected components**.
+---
 
+# **RoboKnight**
+
+**RoboKnight** is the unified technical universe built on top of the  
+**Cyborg Core**, a modular system of:
+
+- **Standard C applications**  
+- **DirectX‑ready rendering pipelines**  
+- **AVIS‑structured modules**  
+- **Future‑ready network‑connected components**
+
+Together, these layers form a cohesive, extensible architecture designed for expansion, interoperability, and ceremonial precision.
+
+---
+<div align="center" style="margin-bottom:25px;">
+  <img src="https://raw.githubusercontent.com/mercwar/Robo-Knight-Demos/main/Direct%20X%20Standard%20C/Mercwar_Robo-Knight/realistic%20portrait%2033o.png"
+       alt="RoboKnight Greeting Hero"
+       style="max-width:85%; border-radius:14px; box-shadow:0 6px 20px rgba(0,0,0,0.45);">
+</div>
+--
 This repository is not a single program —  
 it is a **family of interconnected systems**, each one designed to evolve  
 into a distributed, AI‑assisted, multiplayer‑capable engine.
