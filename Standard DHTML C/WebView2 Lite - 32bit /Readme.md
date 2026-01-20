@@ -10,43 +10,26 @@
 />
 </div>
 
-This repository contains the **root‑level, canonical, diagnostic implementation** of WebView2 for 32‑bit Windows — the minimal, authoritative build that proves your environment is structurally correct.
+<details><summary><strong>🛡️ Robo‑Knight — Version 1 Web Introduction</strong></summary>
 
-It validates:
-
-- Loader correctness  
-- ABI correctness  
-- Vtable alignment  
-- COM initialization  
-- Window hosting  
-- Compositor binding  
-- Rendering pipeline integrity  
-
-If this demo works → your environment is correct.  
-If your full project fails → your architecture is wrong.
-
----
-
-# 🛡️ **Robo‑Knight — Version 1 Web Introduction**  
-*(You can place this right before or after the Gallery section)*
 
 Version 1 of **Robo‑Knight** is the **foundational web‑era identity** of the character — the first stable, canonical definition of how Robo‑Knight appears, behaves, and is represented across all digital surfaces.
 
 This introduction defines:
 
-### 🔷 **Web‑Safe Canonical Geometry**  
+### 🔷 Web‑Safe Canonical Geometry
 - Human‑scale facial proportions  
 - Symmetric visor and chin‑guard alignment  
 - Photorealistic armor behavior under browser rendering  
 - Shine calibrated for both light and dark themes  
 
-### 🔷 **Browser‑Consistent Material Rules**  
+### 🔷 Browser‑Consistent Material Rules
 - No stylization drift  
 - No cartoon abstraction  
 - No AI‑hallucinated geometry  
 - Shine must enhance, not replace, physical structure  
 
-### 🔷 **Version 1 Web Identity Purpose**  
+### 🔷 Version 1 Web Identity Purpose
 Version 1 exists to ensure that **every web‑rendered Robo‑Knight** — whether in documentation, demos, or UI surfaces — remains:
 
 - Recognizable  
@@ -54,9 +37,7 @@ Version 1 exists to ensure that **every web‑rendered Robo‑Knight** — wheth
 - Photorealistic  
 - Consistent across browsers and resolutions  
 
-
-
-### 🔷 **Why Version 1 Matters**  
+### 🔷 Why Version 1 Matters
 This is the **anchor point** for all future Robo‑Knight evolutions.  
 Every shine, every face, every armor plate must trace back to Version 1.
 
@@ -75,6 +56,8 @@ It validates:
 
 If this demo works → your environment is correct.  
 If your full project fails → your architecture is wrong.
+
+</details>
 
 ---
 
