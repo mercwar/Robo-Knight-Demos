@@ -1,11 +1,15 @@
-# 🧩 **WebView2 Lite — 32‑Bit**  
-### **Canonical Cyborg Technical Build — Full Technical Introduction**
+## WebView2 Lite — 32‑Bit
+### Canonical Cyborg Technical Build — Full Technical Introduction
 
 <div style="border:4px solid #555; padding:20px; margin:20px 0; text-align:center; font-size:18px;">
-<img src="BIG_IMAGE_PLACEHOLDER_TOP" alt="Hero Image" />
+<img
+  src="https://raw.githubusercontent.com/mercwar/Robo-Knight-Gallery/main/Version%201/Copilot_20260117_222234.png"
+  alt="Robo-Knight Canonical Shine Version 1"
+  style="max-width:100%; height:auto;"
+/>
 </div>
 
-This repository contains the **root‑level, canonical, diagnostic implementation** of WebView2 for 32‑bit Windows.  
+This repository contains the root‑level diagnostic implementation of WebView2 for 32‑bit Windows.  
 It validates:
 
 - Loader correctness  
@@ -21,44 +25,42 @@ If your full project fails → your architecture is wrong.
 
 ---
 
+## Table of Contents
 <details><summary><strong>📘 Table of Contents — Important Information</strong></summary>
 
-- [Copyright](#️-copyright-notice)
-- [Robo‑Knight Universe Context](#🤖-robo-knight-universe-context)
-- [Robo‑Knight Gallery — Version 1](#🛡️-robo-knight-gallery--version-1-canonical)
-- [Overview](#🧭-overview)
-- [Canonical Demo Window](#🖥️-canonical-demo-window)
-- [Technical Canon](#🧬-technical-canon)
-- [Directory Clarification Table](#📁-directory-clarification-table)
-- [Troubleshooting Matrix](#🧪-troubleshooting-matrix)
-- [Color‑Coded Warnings](#⚠️-color-coded-warnings)
-- [Instant‑Run Edition](#🚀-instant-run-edition)
-- [FAQ](#❓-faq)
-- [Loader FAQ](#️-loader-faq)
-- [Common Mistakes](#⚠️-common-mistakes)
-- [Verify Windows Kit](#🧰-verify-windows-kit)
-- [Verify WebView2](#🌐-verify-webview2)
-- [Developer Onboarding](#🚀-developer-onboarding)
-- [System Health Checklist](#🧪-system-health-checklist)
-- [Authoring Motto](#✒️-authoring-motto)
-- [Canon Status](#🏛️-canon-status)
+- [Copyright Notice](#copyright-notice)
+- [Robo‑Knight Universe Context](#robo-knight-universe-context)
+- [Robo‑Knight Gallery — Version 1](#robo-knight-gallery--version-1)
+- [Overview](#overview)
+- [Canonical Demo Window](#canonical-demo-window)
+- [Technical Canon](#technical-canon)
+- [Directory Clarification Table](#directory-clarification-table)
+- [Troubleshooting Matrix](#troubleshooting-matrix)
+- [Color‑Coded Warnings](#color-coded-warnings)
+- [Instant‑Run Edition](#instant-run-edition)
+- [FAQ](#faq)
+- [Loader FAQ](#loader-faq)
+- [Common Mistakes](#common-mistakes)
+- [Verify Windows Kit](#verify-windows-kit)
+- [Verify WebView2](#verify-webview2)
+- [Developer Onboarding](#developer-onboarding)
+- [System Health Checklist](#system-health-checklist)
+- [Authoring Motto](#authoring-motto)
+- [Canon Status](#canon-status)
 
 </details>
 
 
 ---
 
-<details><summary><strong>⚖️ COPYRIGHT NOTICE</strong></summary>
+## Copyright Notice
+<details><summary><strong>⚖️ Legal Ownership</strong></summary>
 
-## ⚖️ © 2026 Mercwar. All Rights Reserved.
+© 2026 Mercwar. All Rights Reserved.
 
+All content in this repository — including source code, diagrams, vtable references, loader notes, screenshots, documentation, visual designs, and canonical definitions — is the exclusive intellectual property of Mercwar.
 
-
-All content in this repository — including source code, diagrams, vtable references, loader notes, screenshots, documentation, visual designs, and canonical definitions — is the exclusive intellectual property of Mercwar. Unauthorized use may result in DMCA takedowns and legal action.
-
-### OWNERSHIP  
-This repository and all materials within it, including but not limited to:
-
+### Ownership Includes:
 - Images  
 - AI‑generated artwork  
 - Visual designs  
@@ -69,14 +71,12 @@ This repository and all materials within it, including but not limited to:
 - Canon definitions  
 - Presentation and composition  
 
-are the **exclusive intellectual property of Mercwar**.
-
-
 </details>
 
 ---
 
-<details><summary><strong>🤖 ROBO‑KNIGHT UNIVERSE CONTEXT</strong></summary>
+## Robo‑Knight Universe Context
+<details><summary><strong>🤖 Ceremonial Framework</strong></summary>
 
 The Robo‑Knight universe defines the ceremonial and mythic layer of this project.
 
@@ -87,26 +87,13 @@ The Robo‑Knight universe defines the ceremonial and mythic layer of this proje
 - Window = visor  
 - Message loop = pulse  
 
-This README preserves that ceremonial tone while remaining fully technical.
-
 </details>
 
 ---
 
-<details><summary><strong>🛡️ Robo‑Knight Gallery — Version 1 (Canonical)</strong></summary>
-
-**Version 1** is the **origin and immutable canon** of the Robo‑Knight visual identity.
-
-It defines:
-
-- Canonical armor shine  
-- Human-scale facial geometry  
-- Integrated visor + chin guard alignment  
-- Photorealistic material behavior  
-
----
-
-### 📸 Canonical Shine Image (Version 1)
+## Robo‑Knight Gallery — Version 1
+<details><summary><strong>🛡️ Canonical Visual Identity</strong></summary>
+### Canonical Shine Image (Version 1)
 
 <img
   src="https://raw.githubusercontent.com/mercwar/Robo-Knight-Gallery/main/Version%201/Copilot_20260117_222234.png"
@@ -114,77 +101,35 @@ It defines:
   style="max-width:100%; height:auto;"
 />
 
----
+Version 1 is the origin and immutable canon of the Robo‑Knight visual identity.
 
-### 🧠 What Version 1 Contains
+### Includes:
+- Canonical shine  
+- Human‑scale facial geometry  
+- Visor + chin guard alignment  
+- Photorealistic material behavior  
 
-- Shine image  
+### Directory Contents:
+- Shine assets  
 - Young face reference  
 - Old face reference  
 - Armor geometry  
 - AI/Copilot canonical artifacts  
 
----
-
-### 📂 Directory Index
-
-- Shine Assets  
-- Face References (Young)  
-- Face References (Old)  
-- Armor Geometry  
-- AI / Copilot Canon Artifacts  
-
----
-
-### 🤖 Canonical Rules for AI Use
-
-- Face must be constructed, not stylized  
-- Human proportions mandatory  
-- Shine enhances geometry — never replaces it  
-- No cartooning or abstraction  
-
-**Prompt example:**
-
-```
-Generate Robo-Knight using Version 1 canonical shine and face geometry.
-Maintain photorealism, lifted visor, aligned chin/mouth guard.
-Do not stylize or abstract.
-```
-
----
-
-### ⚖️ COPYRIGHT (Version 1)
-
-© 2026 Mercwar. All Rights Reserved.  
-No reproduction, redistribution, derivative works, commercial use, AI training, dataset inclusion, or style imitation allowed.
-
----
-
-### 🏛️ Canon Status
-
-**Robo‑Knight Gallery — Version 1**  
-is the **single source of truth** for Robo‑Knight visuals.  
-Locked. Immutable. Eternal.
-
-🛡️ *Robo‑Knight stands eternal.*
+### Canonical Rules:
+- No stylization  
+- No abstraction  
+- Human proportions required  
+- Shine enhances geometry  
 
 </details>
 
 ---
 
-<div style="border:4px solid #555; padding:20px; margin:20px 0; text-align:center; font-size:18px;">
-<img src="BIG_IMAGE_PLACEHOLDER_BEFORE_COLLAPSIBLE" alt="Mid README Image" />
-</div>
+## Overview
+<details><summary><strong>🧭 What This Demo Proves</strong></summary>
 
----
-
-
-## 🧭 OVERVIEW  
-<details><summary><strong>What This Demo Proves About Your System</strong></summary>
-
-WebView2 Lite — 32‑Bit is the baseline diagnostic demo that proves your environment is correct.
-
-It verifies:
+This demo verifies:
 
 - Windows Kit installed  
 - WebView2 NuGet installed  
@@ -195,230 +140,211 @@ It verifies:
 - Compositor binding correct  
 - Rendering pipeline functional  
 
-If the demo works → your system is healthy.  
-If your full project fails → your architecture is wrong.
+</details>
+
+---
+
+## Canonical Demo Window
+<details><summary><strong>🖥️ Visual Output</strong></summary>
+
+<div style="border:2px dashed #888; padding:20px; text-align:center;">
+<img
+  src="https://raw.githubusercontent.com/mercwar/Robo-Knight-Gallery/main/Version%201/Copilot_20260117_222234.png"
+  alt="Robo-Knight Canonical Shine Version 1"
+  style="max-width:100%; height:auto;"
+/>
+</div>
 
 </details>
 
 ---
 
-## 🧬 TECHNICAL CANON  
-<details><summary><strong>Core Rules Required for WebView2 to Function</strong></summary>
+## Technical Canon
+<details><summary><strong>🧬 Core Rules</strong></summary>
 
-### 🔧 COM Initialization  
+### COM Initialization  
 - STA only  
 - UI thread only  
-- No MTA  
-- No worker threads  
 
-### 🧩 ABI & Vtable  
+### ABI & Vtable  
 - Must match SDK  
 - `__stdcall` required  
-- 8‑byte packing  
-- No reordering  
 
-### 🧱 Loader Binding  
+### Loader Binding  
 - 32‑bit only  
 - Must be next to EXE  
-- Version must match headers  
-- System32 resolution forbidden  
 
-### 🪟 Window Hosting  
+### Window Hosting  
 - No layered windows  
-- No transparency  
-- Must have visible client area  
 - Must call `put_Bounds`  
 
-### 🔄 Message Loop  
-- Standard Win32 loop  
+### Message Loop  
 - Must not block UI thread  
-- Must not starve compositor  
 
 </details>
 
 ---
 
-## 📁 DIRECTORY CLARIFICATION TABLE  
-<details><summary><strong>How to Interpret the Project’s Folder Structure</strong></summary>
+## Directory Clarification Table
+<details><summary><strong>📁 Folder Structure Explanation</strong></summary>
 
 | Topic | Explanation |
 |-------|-------------|
-| Directory Adjustments | No changes needed. C files work where they are. |
-| IDE Usage | Any C IDE works. Just point to the `.c` files. |
-| Custom Structure | Yes, it’s custom. No, you don’t need to conform. |
-| WK Requirement | Only the Windows Kit has expectations. |
-| WK Source | Installed from Microsoft Downloads. Free. |
-| WebView2 NuGet | Provides headers + loader. No special layout needed. |
-| Bottom Line | WK + WebView2 installed = demo builds instantly. |
+| Directory Adjustments | No changes needed |
+| IDE Usage | Any C IDE works |
+| Custom Structure | Yes, custom; no conformity required |
+| WK Requirement | Only Windows Kit matters |
+| WebView2 NuGet | Provides headers + loader |
 
 </details>
 
 ---
 
-## 🧪 TROUBLESHOOTING MATRIX  
-<details><summary><strong>Most Common Failure Modes and Their Causes</strong></summary>
+## Troubleshooting Matrix
+<details><summary><strong>🧪 Common Failures</strong></summary>
 
-### ❌ White Screen  
+### White Screen  
 - ABI mismatch  
 - Wrong loader  
 - Layered window  
-- Zero‑sized bounds  
-- Wrong COM apartment  
 
-### ❌ Navigation Works but No Render  
+### Navigation Works but No Render  
 - Compositor not binding  
-- Loader/header mismatch  
 - Wrong calling convention  
 
 </details>
 
 ---
 
-## ⚠️ COLOR‑CODED WARNINGS  
-<details><summary><strong>Critical Warnings That Affect Rendering Stability</strong></summary>
+## Color‑Coded Warnings
+<details><summary><strong>⚠️ Critical Notes</strong></summary>
 
-<div style="background:#330000; color:#ff6666; padding:10px; border-left:6px solid #ff0000;">
-🔥 CRITICAL: If the demo fails, your environment is broken.
-</div>
-
-<div style="background:#332200; color:#ffdd66; padding:10px; border-left:6px solid #ffaa00;">
-⚠️ WARNING: Layered windows break WebView2 rendering.
-</div>
-
-<div style="background:#002233; color:#66ccff; padding:10px; border-left:6px solid #0099ff;">
+🔥 CRITICAL: If the demo fails, your environment is broken.  
+⚠️ WARNING: Layered windows break WebView2 rendering.  
 ℹ️ INFO: Only Windows Kit + WebView2 NuGet are required.
-</div>
 
 </details>
 
 ---
 
-## 🚀 INSTANT‑RUN EDITION  
-<details><summary><strong>Steps Required to Run the Demo Immediately</strong></summary>
+## Instant‑Run Edition
+<details><summary><strong>🚀 Quick Start</strong></summary>
 
 If you have:
 
 - Windows Kit  
 - WebView2 NuGet  
 
-installed, then:
+Then:
 
-> **Clone → Build → Run**  
-> The demo works instantly.
-
-No configuration.  
-No environment variables.  
-No frameworks.  
-No installers.
+**Clone → Build → Run**
 
 </details>
 
 ---
 
-## ❓ FAQ  
-<details><summary><strong>General Questions About the Project and Its Purpose</strong></summary>
+## FAQ
+<details><summary><strong>❓ General Questions</strong></summary>
 
-### Why is this project 32‑bit?  
-Many legacy environments still rely on 32‑bit processes. This demo validates compatibility.
-
-### Does this project require Visual Studio?  
-No. Any C compiler that supports Win32 development works.
-
-### Do I need to install WebView2 Runtime?  
-Most systems already have it. If not, install the Evergreen Runtime.
-
-### Why is the project intentionally minimal?  
-To eliminate variables and isolate environment issues.
-
-### Does this project modify system settings?  
-No. It only loads WebView2 and displays a window.
+- Why 32‑bit?  
+- Do I need Visual Studio?  
+- Do I need WebView2 Runtime?  
+- Why minimal?  
 
 </details>
 
 ---
 
-## ❤️ LOADER FAQ  
-<details><summary><strong>Rules and Requirements for the WebView2 Loader DLL</strong></summary>
+## Loader FAQ
+<details><summary><strong>❤️ Loader Requirements</strong></summary>
 
-### Where must the loader DLL be located?  
-Next to the executable.
-
-### Why does the loader version matter?  
-It must match the header version used at compile time.
-
-### Can I embed the loader?  
-Yes, but it must still match architecture and be accessible.
-
-### Why does the loader fail on some systems?  
-Common causes include missing runtime components or blocked DLL loading.
+- Loader must be next to EXE  
+- Version must match headers  
+- Architecture must match  
 
 </details>
 
 ---
 
-## ⚠️ COMMON MISTAKES  
-<details><summary><strong>Frequent Errors That Break WebView2 Rendering</strong></summary>
+## Common Mistakes
+<details><summary><strong>⚠️ Frequent Errors</strong></summary>
 
-- Using a layered or transparent window  
-- Calling WebView2 from the wrong thread  
-- Incorrect calling conventions  
-- Zero‑sized bounds  
-- Mixing 32‑bit and 64‑bit components  
+- Layered windows  
+- Wrong thread  
+- Wrong calling convention  
 
 </details>
 
 ---
 
-## 🧰 VERIFY WINDOWS KIT  
-<details><summary><strong>Checklist to Confirm Your Windows SDK Is Installed Correctly</strong></summary>
+## Verify Windows Kit
+<details><summary><strong>🧰 SDK Checklist</strong></summary>
 
-- Confirm SDK installation  
-- Check header directories  
-- Confirm compiler tools  
-- Build a simple Win32 window  
+- Confirm installation  
+- Check headers  
+- Build a Win32 window  
 
 </details>
 
 ---
 
-## 🌐 VERIFY WEBVIEW2  
-<details><summary><strong>Checklist to Confirm WebView2 Runtime and SDK Are Working</strong></summary>
+## Verify WebView2
+<details><summary><strong>🌐 Runtime Checklist</strong></summary>
 
-- Confirm NuGet package  
+- Confirm NuGet  
 - Check header versions  
-- Confirm runtime availability  
 - Run the demo  
 
 </details>
 
 ---
 
-## 🚀 DEVELOPER ONBOARDING  
-<details><summary><strong>Steps for New Developers to Build and Run the Project</strong></summary>
+## Developer Onboarding
+<details><summary><strong>🚀 Setup Steps</strong></summary>
 
 - Install prerequisites  
-- Clone the repo  
-- Open the project  
-- Build (Win32)  
-- Run the executable  
+- Clone repo  
+- Build Win32  
+- Run  
 
 </details>
 
 ---
 
-## 🧪 SYSTEM HEALTH CHECKLIST  
-<details><summary><strong>How to Tell If Your Environment Is Healthy or Broken</strong></summary>
+## System Health Checklist
+<details><summary><strong>🧪 Health Indicators</strong></summary>
 
-### Healthy  
-- WebView2 loads content  
+Healthy:  
+- Renders content  
 - No white screen  
-- No loader errors  
 
-### Unhealthy  
+Unhealthy:  
 - Blank window  
 - Missing DLLs  
-- Architecture mismatch  
-- Missing SDK  
-- Runtime not installed  
 
 </details>
+
+---
+
+## Authoring Motto
+<details><summary><strong>✒️ Writing Philosophy</strong></summary>
+
+Write with precision.  
+Build with discipline.  
+Honor the canon.
+
+</details>
+
+---
+
+## Canon Status
+<details><summary><strong>🏛️ Project Authority</strong></summary>
+
+WebView2 Lite — 32‑Bit is the root canonical implementation.
+
+</details>
+<img
+  src="https://raw.githubusercontent.com/mercwar/Robo-Knight-Gallery/main/Version%201/Copilot_20260117_222234.png"
+  alt="Robo-Knight Canonical Shine Version 1"
+  style="max-width:100%; height:auto;"
+/>
