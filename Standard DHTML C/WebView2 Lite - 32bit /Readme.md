@@ -3,7 +3,7 @@
 
 <div style="border:4px solid #555; padding:20px; margin:20px 0; text-align:center; font-size:18px;">
 <img
-  src="https://raw.githubusercontent.com/mercwar/Robo-Knight-Gallery/main/Version%201/Copilot_20260117_222234.png"
+  src="https://raw.githubusercontent.com/mercwar/Robo-Knight-Gallery/main/Version%201/Copilot_20260118_000912.png"
   alt="Robo-Knight Canonical Shine Version 1"
   style="max-width:100%; height:auto;"
 />
@@ -96,7 +96,7 @@ The Robo‑Knight universe defines the ceremonial and mythic layer of this proje
 ### Canonical Shine Image (Version 1)
 
 <img
-  src="https://raw.githubusercontent.com/mercwar/Robo-Knight-Gallery/main/Version%201/Copilot_20260117_222234.png"
+  src="https://raw.githubusercontent.com/mercwar/Robo-Knight-Gallery/main/Version%201/Copilot_20260118_001025.png"
   alt="Robo-Knight Canonical Shine Version 1"
   style="max-width:100%; height:auto;"
 />
@@ -344,7 +344,7 @@ WebView2 Lite — 32‑Bit is the root canonical implementation.
 
 </details>
 <img
-  src="https://raw.githubusercontent.com/mercwar/Robo-Knight-Gallery/main/Version%201/Copilot_20260117_222234.png"
+  src="https://raw.githubusercontent.com/mercwar/Robo-Knight-Gallery/main/Version%201/Copilot_20260118_000909.png"
   alt="Robo-Knight Canonical Shine Version 1"
   style="max-width:100%; height:auto;"
 />
