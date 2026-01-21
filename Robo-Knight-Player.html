@@ -1,9 +1,31 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Theme Song</title>
+    <title>ROBO-KNIGHT — DARKSTAR-PRIME System</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- ============================================================
+     ROBO-KNIGHT / DARKSTAR-PRIME META BLOCK
+     Optimized for Google indexing + GitHub visibility
+     ============================================================ -->
+
+<meta name="description" content="ROBO-KNIGHT Player System — DARKSTAR-PRIME. A modular, self-healing launch architecture with version enforcement, container rebuilding, and a Spotify theme-song hero section. Includes launcher.php, exec.php, darkstar.php, exec_launcher.php, and the auto-generated container.">
+
+<meta name="keywords" content="Robo-Knight, Darkstar Prime, AVIS, Cyborg Protocol, launcher.php, exec.php, darkstar.php, exec_launcher.php, YouTube player, invisible player, modular system, self-healing architecture, GitHub demos, Demon, Robo Knight Player">
+
+<meta name="author" content="Demon / ROBO-KNIGHT SYSTEMS">
+
+<meta name="robots" content="index, follow">
+
+<meta property="og:title" content="ROBO-KNIGHT — DARKSTAR-PRIME System">
+<meta property="og:description" content="The ROBO-KNIGHT Player System: a DARKSTAR-PRIME controlled, self-validating, self-repairing launch chain with a Spotify theme-song hero section.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://github.com/mercwar/Robo-Knight-Demos">
+<meta property="og:image" content="https://raw.githubusercontent.com/mercwar/Robo-Knight-Demos/main/robo-knight-banner.png">
+
+<meta name="theme-color" content="#0a0a0f">
+
     <style>
         body {
             background: #0a0a0f;
@@ -19,18 +41,108 @@
             text-transform: uppercase;
             margin-bottom: 1rem;
         }
+        h2 {
+            font-size: 1.4rem;
+            margin-top: 2.5rem;
+            color: #ffd76a;
+            text-transform: uppercase;
+        }
         .player {
             max-width: 600px;
+            margin: 0 auto 40px auto;
+        }
+        .block {
+            max-width: 800px;
             margin: 0 auto;
+            text-align: left;
+            background: #11131a;
+            padding: 20px;
+            border-radius: 8px;
+            border: 1px solid #333;
+        }
+        .block p, .block li {
+            line-height: 1.6;
+        }
+        code {
+            background: #1b1d24;
+            padding: 2px 5px;
+            border-radius: 4px;
+            color: #9fe8ff;
+        }
+        ul {
+            text-align: left;
+            margin-left: 20px;
         }
     </style>
 </head>
+
 <body>
 
+    <!-- GOOGLE-INDEXED HERO SECTION (UNCHANGED) -->
     <h1>Song</h1>
-<iframe data-testid="embed-iframe" style="border-radius:12px" src="https://open.spotify.com/embed/track/4TjOgsfqBJeGBf7N3zxpdb?utm_source=generator&theme=0" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+    <div class="player">
+        <iframe data-testid="embed-iframe" style="border-radius:12px"
+            src="https://open.spotify.com/embed/track/4TjOgsfqBJeGBf7N3zxpdb?utm_source=generator&theme=0"
+            width="100%" height="152" frameBorder="0" allowfullscreen=""
+            allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+            loading="lazy">
+        </iframe>
+    </div>
 
+    <!-- DARKSTAR-PRIME README MERGED BELOW -->
+    <h2>ROBO‑KNIGHT PLAYER SYSTEM — DARKSTAR‑PRIME</h2>
 
+    <div class="block">
+        <p>
+            The ROBO‑KNIGHT Player System is a modular, self‑validating launch architecture built on the
+            <strong>DARKSTAR‑PRIME</strong> protocol. It ensures version integrity, container stability,
+            and controlled boot sequencing across the entire system.
+        </p>
+
+        <h3>System Flow</h3>
+        <pre style="text-align:left; background:#1b1d24; padding:10px; border-radius:6px;">
+LAUNCHER → EXEC → (OK) → LOAD CONTAINER
+LAUNCHER → EXEC → (BAD VERSION / MISSING CONTAINER) → DARKSTAR
+DARKSTAR → EXEC_LAUNCHER → WRITE NEW CONTAINER → FULL RELOAD
+        </pre>
+
+        <h3>File Structure</h3>
+        <ul>
+            <li><code>Robo-Knight-Player.php</code> — Public entry wrapper</li>
+            <li><code>launcher.php</code> — Main launcher (version‑locked)</li>
+            <li><code>exec.php</code> — Version + container validator</li>
+            <li><code>darkstar.php</code> — Recovery + rebuild controller</li>
+            <li><code>exec_launcher.php</code> — Writes new index container</li>
+            <li><code>index_.php</code> — Auto‑generated container</li>
+        </ul>
+
+        <h3>Design Principles</h3>
+        <ul>
+            <li><strong>Self‑healing</strong> — DARKSTAR rebuilds the container when needed</li>
+            <li><strong>Version‑locked</strong> — Only <code>DARKSTAR‑PRIME</code> is accepted</li>
+            <li><strong>Modular</strong> — Each file has a single responsibility</li>
+            <li><strong>Deterministic</strong> — No drift, no hidden behavior</li>
+            <li><strong>AVIS‑compliant</strong> — Every artifact includes a CYBORG.PROTOCOL directive block</li>
+        </ul>
+
+        <h3>Public Entry Point</h3>
+        <p>
+            External links and search engines should point to:
+            <br><br>
+            <code>Robo-Knight-Player.php</code>
+        </p>
+
+        <h3>Live Demo (if hosted)</h3>
+        <p>
+            <code>https://yourhost.com/Robo-Knight-Player.php</code>
+        </p>
+
+        <h3>License</h3>
+        <p>
+            © Demon — ROBO‑KNIGHT SYSTEMS  
+            Free to use, modify, and extend.
+        </p>
+    </div>
 
 </body>
 </html>
