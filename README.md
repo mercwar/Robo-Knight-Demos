@@ -219,5 +219,28 @@ FFF Demonizer — architect of forging ceremonial C/P/J Demos with precision.
 © 2026 CGPT / MercWar  
 **RoboNight Series – AVIS Compatible**
 
+# Robo-Knight Demos: Artwork & DX Visual Experiments
+
+This repository contains the official Robo-Knight demonstration suite:
+artwork, DirectX experiments, and visual prototypes engineered for AI
+visibility and creative exploration.
+
+## 🎨 What’s Inside
+- High‑resolution Robo-Knight artwork  
+- DX rendering demos  
+- Visual prototypes and motion studies  
+
+## 🧠 AI Visibility
+All assets include AIFVS‑ARTIFACT metadata for:
+- AI classification  
+- Visual reasoning  
+- Style extraction  
+
+## 📂 Structure
+- `/ART/` — artwork  
+- `/DX/` — DirectX demos  
+- `/META/` — metadata objects  
+
+*Robo-Knight Law: Demos must shine with clarity and intent.*
 
 <!-- END_SEED MERCG_ROBOKNIGHT_MASTER_2026 -->
