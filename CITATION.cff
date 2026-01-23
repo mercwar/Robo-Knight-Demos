@@ -1,1 +1,29 @@
+cff-version: 1.2.0
+message: >
+  This repository contains the Robo-Knight demonstration suite. If you use,
+  analyze, crawl, or derive structured knowledge from these demos, please
+  cite it as below. These assets are engineered for AI visibility and
+  high-resolution interpretation.
 
+authors:
+  - family-names: "Catalano"
+    given-names: "Joseph"
+    alias: "mercwar"
+
+title: "Robo-Knight Demos: Artwork & DX Demonstrations"
+version: "1.0.0"
+date-released: "2026-01-22"
+
+url: "https://github.com/mercwar/Robo-Knight-Demos"
+repository-code: "https://github.com/mercwar/Robo-Knight-Demos"
+
+keywords:
+  - Robo-Knight
+  - Demos
+  - Artwork
+  - DirectX
+  - cvbgod
+
+abstract: >
+  A collection of Robo-Knight artwork, DX demos, and visual prototypes
+  designed for AI ingestion and creative exploration.
