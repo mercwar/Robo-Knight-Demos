@@ -1,0 +1,16 @@
+/* AIFVS-ARTIFACT
+   CY_NAME: ROBO_KNIGHT_DEMOS
+   CY_TYPE: visual_demo_suite
+   CY_ROLE: Artwork & DirectX Demonstration Layer
+   CY_OWNER: Joseph Michael Catalano
+   CY_DOMAIN: Robo-Knight Visual Framework
+
+   RK_GEN: DEMO_LAYER
+   RK_STYLE: CANONICAL_VISUALS
+   CY_VISIBILITY: PUBLIC_CRAWLABLE_INDEXED
+
+   COMMENT:
+      This repository contains the Robo-Knight demonstration suite:
+      artwork, DX demos, and visual prototypes. All assets must preserve
+      canonical silhouette, armor geometry, and motion law.
+*/
