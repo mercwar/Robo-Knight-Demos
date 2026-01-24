@@ -12,7 +12,7 @@ This repository preserves the **canonical implementation** of the VB6 console ho
 
 ---
 
-## 📸 **Console Showcase (Image Placeholders)**
+## 📸 **Console Showcase  - Images by: Copilot/Gemini/cgpt-5 **
 
 ### **1. Embedded Win32 Console (Primary Form)**
 <p align="center"><img src="https://raw.githubusercontent.com/mercwar/Robo-Knight-Demos/refs/heads/main/VISUAL%20BASIC%206/images/cvbgod02.png" width="200" />
