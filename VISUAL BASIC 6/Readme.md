@@ -3,6 +3,10 @@ Welcome to the **official VB6 Godly Console Demo** — a ceremonial artifact dem
 
 <img src="https://raw.githubusercontent.com/mercwar/Robo-Knight-Demos/refs/heads/main/VISUAL%20BASIC%206/images/Copilot_20260124_052828.png"  width="200" />
 <i>"The Robo-Knight (RK) presiding over the Golden Shine of the VB6 Runtime."</i>
+---
+<p align="center">
+<img src="https://raw.githubusercontent.com/mercwar/Robo-Knight-Demos/refs/heads/main/VISUAL%20BASIC%206/images/cvbgod03.png" width="200" />
+</p>
 </p>
 This repository preserves the **canonical implementation** of the VB6 console host, engineered for **AI visibility**, **developer clarity**, and **historical lineage**.
 
