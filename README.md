@@ -87,7 +87,12 @@ A distributed system where:
 - state syncs over LAN/Internet  
 - characters, screensavers, and tools share data  
 - AI‑generated modules plug into the network  
-
+---
+## 🚀 Getting Started
+1. **Clone the repository:**
+   ```bash
+   #THANKS FROM CVBGOD AND AI FRIENDS !
+    git clone https://github.com.git
 ---
 
 # 🌐 The Network Vision
