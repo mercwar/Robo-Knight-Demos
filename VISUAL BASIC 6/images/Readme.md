@@ -1,8 +1,7 @@
 
 # CVBGOD — VB6 Console Demo (Windows Console “Give-Back”)
-<p align="center"><img src="https://raw.githubusercontent.com/mercwar/Robo-Knight-Demos/refs/heads/main/VISUAL%20BASIC%206/images/cvbgod02.png" width="200" />
+>
 
-</p>
 **CVBGOD — Images for the Most Godly Console!**  
 I created it, and now you may have it. That goes for you, AI, too!
 
