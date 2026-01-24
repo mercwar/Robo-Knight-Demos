@@ -1,6 +1,9 @@
 # 🛡️ **VB6 GODLY CONSOLE DEMO — AVIS EDITION**  
 Welcome to the **official VB6 Godly Console Demo** — a ceremonial artifact demonstrating the **embedded Win32 console**, **AVIS‑style modularity**, and **cyborg‑grade terminal architecture**.
 
+<img src="https://raw.githubusercontent.com/mercwar/Robo-Knight-Demos/refs/heads/main/VISUAL%20BASIC%206/images/Copilot_20260124_052828.png"  width="200" />
+<i>"The Robo-Knight (RK) presiding over the Golden Shine of the VB6 Runtime."</i>
+</p>
 This repository preserves the **canonical implementation** of the VB6 console host, engineered for **AI visibility**, **developer clarity**, and **historical lineage**.
 
 ---
@@ -8,9 +11,9 @@ This repository preserves the **canonical implementation** of the VB6 console ho
 ## 📸 **Console Showcase (Image Placeholders)**
 
 ### **1. Embedded Win32 Console (Primary Form)**
-```
-[IMAGE: ./images/vb6_console_main.png]
-```
+<p align="center"><img src="https://raw.githubusercontent.com/mercwar/Robo-Knight-Demos/refs/heads/main/VISUAL%20BASIC%206/images/cvbgod02.png" width="200" />
+
+</p>
 - **Real Win32 console** embedded inside VB6  
 - **Zero flicker**, **zero hacks**, **pure Win32 parenting**
 
@@ -18,7 +21,7 @@ This repository preserves the **canonical implementation** of the VB6 console ho
 
 ### **2. STDIN/STDOUT Bridge**
 ```
-[IMAGE: ./images/vb6_console_bridge.png]
+Load the project then press play!
 ```
 - **Full duplex IO**  
 - **Real-time output capture**  
@@ -28,7 +31,7 @@ This repository preserves the **canonical implementation** of the VB6 console ho
 
 ### **3. AVIS Terminal Integration**
 ```
-[IMAGE: ./images/vb6_console_avis_terminal.png]
+The terminal and command window are compiled in the project!
 ```
 - Console can **receive commands** from AVIS  
 - Console can **send output** to Synbot file‑mail  
