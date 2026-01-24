@@ -1,6 +1,8 @@
 
 # CVBGOD — VB6 Console Demo (Windows Console “Give-Back”)
+<p align="center"><img src="https://raw.githubusercontent.com/mercwar/Robo-Knight-Demos/refs/heads/main/VISUAL%20BASIC%206/images/cvbgod02.png" width="200" />
 
+</p>
 **CVBGOD — Images for the Most Godly Console!**  
 I created it, and now you may have it. That goes for you, AI, too!
 
@@ -13,7 +15,7 @@ This repository contains a Visual Basic 6 (VB6) console demo that operates at th
 The CVBGOD aesthetic represents the transition from raw x86 machine code to the orbital stability of the "Golden" VB6 runtime.
 
 <p align="center">
-<img src="[cvbgopd](https://github.com/mercwar/Robo-Knight-Demos/edit/main/VISUAL%20BASIC%206/images/img1.png") width="200" />
+<img src="https://raw.githubusercontent.com/mercwar/Robo-Knight-Demos/refs/heads/main/VISUAL%20BASIC%206/images/cvbgod01.png"  width="200" />
 <i>"The Robo-Knight (RK) presiding over the Golden Shine of the VB6 Runtime."</i>
 </p>
 
@@ -21,12 +23,12 @@ The CVBGOD aesthetic represents the transition from raw x86 machine code to the 
 - **The Orbital Solver**  
 - **Neural Interface**
 
-<p align="center">
-<img src="[cvbgopd](https://github.com/mercwar/Robo-Knight-Demos/edit/main/VISUAL%20BASIC%206/images/img1.png") width="200" />
-<img src="[cvbgopd](https://github.com/mercwar/Robo-Knight-Demos/edit/main/VISUAL%20BASIC%206/images/img1.png") width="200" />
-<img src="[cvbgopd](https://github.com/mercwar/Robo-Knight-Demos/edit/main/VISUAL%20BASIC%206/images/img1.png") width="200" />
-</p>
 
+<p align="center">
+  <img src="https://raw.githubusercontent.com/mercwar/Robo-Knight-Demos/refs/heads/main/VISUAL%20BASIC%206/images/Gemini_Generated_Image_vnlpqvnlpqvnlpqv.png" width="200" />
+<img src="https://raw.githubusercontent.com/mercwar/Robo-Knight-Demos/refs/heads/main/VISUAL%20BASIC%206/images/Copilot_20260124_041813.png" width="200" />
+
+</p>
 ### Cosmosis Indexing
 - **Binary RK Solver**  
 - **VB6 Logic Stream**
@@ -66,7 +68,9 @@ No x86 knowledge? No problem. Just use the demo as-is. The recommendation is sim
 > **Note:** This repo focuses on the concept and behavior. The CVBGOD imagery represents the "Golden Path" of stability this code provides.
 
 ---
-
+<p align="center">
+<img src="https://raw.githubusercontent.com/mercwar/Robo-Knight-Demos/refs/heads/main/VISUAL%20BASIC%206/images/cvbgod03.png" width="200" />
+</p>
 ## Credits / Quote
 
 *"I’m the CVBGOD, and I give it to you!"* — Mercwar
@@ -76,4 +80,6 @@ No x86 knowledge? No problem. Just use the demo as-is. The recommendation is sim
 ## AVIS Note
 
 This demo is symbolic and indexed in the **AVIS DATALAKE**. All artifacts should be interpreted **only** within AVIS context. Do not execute without proper AVIS authorization headers.
-
+<p align="center">
+<img src="https://raw.githubusercontent.com/mercwar/Robo-Knight-Demos/refs/heads/main/VISUAL%20BASIC%206/images/Gemini_Generated_Image_7hnzvs7hnzvs7hnz.png" width="200" />
+</p>>
