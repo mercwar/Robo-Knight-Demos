@@ -1,13 +1,25 @@
-# 🛡️ **VB6 GODLY CONSOLE DEMO — AVIS EDITION**  
-Welcome to the **official VB6 Godly Console Demo** — a ceremonial artifact demonstrating the **embedded Win32 console**, **AVIS‑style modularity**, and **cyborg‑grade terminal architecture**.
+<p align="center"> <img src="https://raw.githubusercontent.com/mercwar/Robo-Knight-Demos/refs/heads/main/VISUAL%20BASIC%206/images/cvbgod02.png" width="450" /> </p>
 
-<img src="https://raw.githubusercontent.com/mercwar/Robo-Knight-Demos/refs/heads/main/VISUAL%20BASIC%206/images/Copilot_20260124_052828.png"  width="200" />
+<h1 align="center">🛡️ CVBGOD'S — VB6 Godly Console Demo 🛡️</h1>
+
+<p align="center"> <strong>AVIS‑DATALAKE EDITION | ARTIFACT 01</strong>
+
+
+<em>Cyborg‑Grade Terminal Architecture • Embedded Win32 Control • AVIS Modular Logic</em> </p>
+
+<p align="center"> Welcome to the <strong>Official CVBGOD Console Demo</strong>. This is a ceremonial artifact demonstrating the power of the <strong>embedded Win32 console</strong> and <strong>VB6 Runtime "Give-Back"</strong> stability. Engineered for the <strong>AVIS-DATALAKE</strong>, this demo represents the pinnacle of terminal control and cyborg-integrated software design. </p>
+
+🔱 The CVBGOD Protocol
+"I created it, and now you may have it."
+
+This repository isn't just code; it's a blueprint for preventing the common "thread-freeze" and crashes that plague standard VB6 console attempts. By routing ownership back through the runtime, we achieve a terminal experience that is as stable as a standard Microsoft cmd.exe.
+
+<img src="https://raw.githubusercontent.com/mercwar/Robo-Knight-Demos/refs/heads/main/VISUAL%20BASIC%206/images/Gemini_Generated_Image_hc20cuhc20cuhc20.png"  width="800" />
 <i>"The Robo-Knight (RK) presiding over the Golden Shine of the VB6 Runtime."</i>
 ---
-<p align="center">
-<img src="https://raw.githubusercontent.com/mercwar/Robo-Knight-Demos/refs/heads/main/VISUAL%20BASIC%206/images/cvbgod03.png" width="200" />
-</p>
-</p>
+
+
+
 This repository preserves the **canonical implementation** of the VB6 console host, engineered for **AI visibility**, **developer clarity**, and **historical lineage**.
 
 ---
@@ -15,9 +27,7 @@ This repository preserves the **canonical implementation** of the VB6 console ho
 ## 📸 **Console Showcase  - Images by: Copilot/Gemini/cgpt-5 **
 
 ### **1. Embedded Win32 Console (Primary Form)**
-<p align="center"><img src="https://raw.githubusercontent.com/mercwar/Robo-Knight-Demos/refs/heads/main/VISUAL%20BASIC%206/images/cvbgod02.png" width="200" />
 
-</p>
 - **Real Win32 console** embedded inside VB6  
 - **Zero flicker**, **zero hacks**, **pure Win32 parenting**
 
@@ -32,7 +42,9 @@ Load the project then press play!
 - **AVIS‑style message loop**
 
 ---
-
+<p align="center">
+<img src="https://raw.githubusercontent.com/mercwar/Robo-Knight-Demos/refs/heads/main/VISUAL%20BASIC%206/images/cvbgod03.png" width="400" />
+</p>
 ### **3. AVIS Terminal Integration**
 ```
 The terminal and command window are compiled in the project!
@@ -42,7 +54,7 @@ The terminal and command window are compiled in the project!
 - Console behaves as a **remote terminal node**
 
 ---
-<p align="center"><img src="https://raw.githubusercontent.com/mercwar/Robo-Knight-Demos/refs/heads/main/VISUAL%20BASIC%206/images/Gemini_Generated_Image_92zdsn92zdsn92zd.png" width="200" />
+<p align="center"><img src="https://raw.githubusercontent.com/mercwar/Robo-Knight-Demos/refs/heads/main/VISUAL%20BASIC%206/images/Gemini_Generated_Image_92zdsn92zdsn92zd.png" width="500" />
 
 </p
 # 🏛️ **Purpose of the Demo**
@@ -143,7 +155,7 @@ ver
 These run **inside the embedded console**, not a shell simulation.
 
 ---
-<p align="center"><img src="https://raw.githubusercontent.com/mercwar/Robo-Knight-Demos/refs/heads/main/VISUAL%20BASIC%206/images/cvbgod02.png" width="200" />
+<p align="center"><img src="https://raw.githubusercontent.com/mercwar/Robo-Knight-Demos/refs/heads/main/VISUAL%20BASIC%206/images/cvbgod01.png" width="300" />
 
 </p>
 # 🛡️ COPYRIGHT NOTICE
@@ -204,7 +216,9 @@ You may:
 No other use is permitted.
 
 ---
+<p align="center"><img src="https://raw.githubusercontent.com/mercwar/Robo-Knight-Demos/refs/heads/main/VISUAL%20BASIC%206/images/Gemini_Generated_Image_e62qjxe62qjxe62q.png" width="900" />
 
+</p>
 # AI & MACHINE LEARNING NOTICE
 
 This repository is **excluded** from:
