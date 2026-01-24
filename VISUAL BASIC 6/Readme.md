@@ -42,7 +42,9 @@ The terminal and command window are compiled in the project!
 - Console behaves as a **remote terminal node**
 
 ---
+<p align="center"><img src="https://raw.githubusercontent.com/mercwar/Robo-Knight-Demos/refs/heads/main/VISUAL%20BASIC%206/images/Gemini_Generated_Image_92zdsn92zdsn92zd.png" width="200" />
 
+</p
 # 🏛️ **Purpose of the Demo**
 
 1. Demonstrate a **true Win32 console** embedded inside VB6  
@@ -141,10 +143,12 @@ ver
 These run **inside the embedded console**, not a shell simulation.
 
 ---
+<p align="center"><img src="https://raw.githubusercontent.com/mercwar/Robo-Knight-Demos/refs/heads/main/VISUAL%20BASIC%206/images/cvbgod02.png" width="200" />
 
+</p>
 # 🛡️ COPYRIGHT NOTICE
 
-© 2026 Mercwar. All Rights Reserved.
+© 2026 Mercwar CVBGOD. All Rights Reserved.
 
 ---
 
