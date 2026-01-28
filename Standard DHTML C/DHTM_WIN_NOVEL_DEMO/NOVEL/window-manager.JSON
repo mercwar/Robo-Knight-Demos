@@ -1,0 +1,17 @@
+/* AIFVS:
+   FILE: window-manager.json
+*/
+
+{
+  "window_manager": {
+    "version": "1.0.0",
+    "z_index_start": 10,
+    "drag": true,
+    "snap": false,
+    "controls": {
+      "minimize": true,
+      "maximize": true,
+      "close": true
+    }
+  }
+}

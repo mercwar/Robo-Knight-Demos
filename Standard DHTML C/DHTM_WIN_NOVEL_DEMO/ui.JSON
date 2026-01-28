@@ -1,0 +1,20 @@
+/* AIFVS:
+   FILE: ui.json
+*/
+
+{
+  "ui": {
+    "version": "1.0.0",
+    "theme": {
+      "primary": "#000000",
+      "accent_yellow": "#facc15",
+      "accent_silver": "#c0c0c0"
+    },
+    "components": [
+      "window-frame",
+      "titlebar",
+      "controls",
+      "desktop-surface"
+    ]
+  }
+}

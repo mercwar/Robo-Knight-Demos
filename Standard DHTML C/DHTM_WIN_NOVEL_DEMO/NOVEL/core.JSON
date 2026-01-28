@@ -1,0 +1,15 @@
+/* AIFVS:
+   FILE: core.json
+*/
+
+{
+  "core": {
+    "version": "1.0.0",
+    "description": "Core system definitions for SYMSYS.",
+    "includes": [
+      "runtime",
+      "protocols",
+      "event-bus"
+    ]
+  }
+}

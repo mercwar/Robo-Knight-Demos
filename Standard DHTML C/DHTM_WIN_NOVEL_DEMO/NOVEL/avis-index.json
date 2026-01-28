@@ -1,0 +1,16 @@
+{
+  "repos": [
+    {
+      "name": "cyborg",
+      "path": "https://github.com/mercwar/cyborg"
+    },
+    {
+      "name": "datalake",
+      "path": "https://github.com/mercwar/AVIS-DATALAKE"
+    },
+    {
+      "name": "demos",
+      "path": "https://github.com/mercwar/Robo-Knight-Demos"
+    }
+  ]
+}

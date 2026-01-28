@@ -1,0 +1,21 @@
+/* AIFVS:
+   FILE: desktop.json
+*/
+
+{
+  "desktop": {
+    "version": "1.0.0",
+    "windows": [
+      "file-browser",
+      "search",
+      "image-viewer"
+    ],
+    "features": [
+      "drag",
+      "focus",
+      "minimize",
+      "maximize",
+      "close"
+    ]
+  }
+}

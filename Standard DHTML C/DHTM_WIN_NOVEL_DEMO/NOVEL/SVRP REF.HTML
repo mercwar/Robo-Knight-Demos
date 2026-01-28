@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>SVRP-1.2 SYMVIEW – INTENT Field Reference</title>
+  <style>
+    body { font-family: system-ui, sans-serif; line-height: 1.5; color: #111; background: #fafafa; padding: 20px; }
+    h1, h2, h3, h4 { margin-top: 1.4em; }
+    code { background: #eee; padding: 0 4px; border-radius: 3px; }
+    pre { background: #111; color: #f5f5f5; padding: 12px; border-radius: 4px; overflow-x: auto; }
+    table { border-collapse: collapse; width: 100%; margin: 1em 0; }
+    th, td { border: 1px solid #ccc; padding: 6px 8px; font-size: 0.95em; vertical-align: top; }
+    th { background: #f0f0f0; text-align: left; }
+    .caps { font-family: "Consolas", monospace; letter-spacing: 0.06em; font-size: 0.85em; }
+    .section { margin-bottom: 2em; }
+    .meta { font-size: 0.9em; color: #555; }
+  </style>
+</head>
+<body>
+
+  <pre class="caps">COSMIC_SYS ? STATUS=OK ? MODE=DATA ? INTENT=REFERENCE:INTENT ? FOCUS=SVRP-1.2</pre>
+
+  <h1>SVRP-1.2 SYMVIEW – <code>intent</code> Field Reference</h1>
+  <p>
+    The <code>intent</code> field is the <strong>ritual purpose descriptor</strong> of every message.
+    It defines what operation is being invoked, how the payload is interpreted, and which execution
+    path the protocol should follow.
+  </p>
+
+  <div class="section" id="definition">
+    <h2>1. Definition</h2>
+    <table>
+      <tr><th>Property</th><th>Description</th></tr>
+      <tr><td>Type</td><td>Short, verb-driven ritual phrase</td></tr>
+      <tr><td>Role</td><td>Declares the purpose of the message</td></tr>
+      <tr><td>Scope</td><td>Governs parsing, execution mode, and COSMIC_SYS status bar</td></tr>
+      <tr><td>Required</td><td>Yes</td></tr>
+      <tr><td>Recommended length</td><td>1–80 characters</td></tr>
+    </table>
+  </div>
+
+  <div class="section" id="structural-rules">
+    <h2>2. Structural rules</h2>
+    <table>
+      <tr><th>Rule</th><th>Description</th></tr>
+      <tr>
+        <td>R1</td>
+        <td>Must be a <strong>verb-driven</strong> phrase (e.g., <code>RUN DIAGNOSTIC</code>, <code>CHECK INSTALL</code>).</td>
+      </tr>
+      <tr>
+        <td>R2</td>
+        <td>May use uppercase, lowercase, or mixed case; case does not change semantics.</td>
+      </tr>
+      <tr>
+        <td>R3</td>
+        <td>Whitespace is normalized; line breaks are allowed but treated as spaces.</td>
+      </tr>
+      <tr>
+        <td>R4</td>
+        <td>No JSON, code, or markup (e.g., <code>&lt;tags&gt;</code>) inside the intent string.</td>
+      </tr>
+      <tr>
+        <td>R5</td>
+        <td>Intent must not contradict the declared <code>view</code> (e.g., <code>ANALYZE STRUCTURE</code> in raw TERMINAL-only mode).</td>
+      </tr>
+      <tr>
+        <td>R6</td>
+        <td>If intent is ambiguous, COSMIC_SYS marks state as <span class="caps">PENDING_CLARITY</span>.</td>
+      </tr>
+    </table>
+  </div>
+
+  <div class="section" id="behavior">
+    <h2>3. Behavioral effects</h2>
+    <p>Each <code>intent</code> triggers three layers of behavior:</p>
+
+    <h3>3.1 SYMVIEW routing</h3>
+    <p>The intent is resolved in the context of <code>view</code>:</p>
+    <ul>
+      <li><strong>TERMINAL:</strong> Command-ritual output, stepwise execution, code blocks.</li>
+      <li><strong>DATA:</strong> Manifests, tables, schemas, structured definitions.</li>
+      <li><strong>WATCH:</strong> Telemetry, state narration, flow and invariant description.</li>
+      <li><strong>INSPECTOR:</strong> Deep analysis, critique, refactor proposals, protocol design.</li>
+    </ul>
+
+    <h3>3.2 COSMIC_SYS status bar</h3>
+    <p>The intent feeds COSMIC_SYS fields:</p>
+    <ul>
+      <li><strong>INTENT:</strong> Canonicalized, short summary of requested operation.</li>
+      <li><strong>FOCUS:</strong> Derived from payload (e.g., protocol name, artifact id) or inferred.</li>
+      <li><strong>STATE:</strong> One of <span class="caps">OK</span>, <span class="caps">PENDING_CLARITY</span>, <span class="caps">BLOCKED</span>, <span class="caps">ERROR</span>.</li>
+    </ul>
+
+    <h3>3.3 Ritual execution path</h3>
+    <p>The intent determines:</p>
+    <ul>
+      <li><strong>Operation class:</strong> validate, install, inspect, diagnose, transform, etc.</li>
+      <li><strong>Payload role:</strong> whether to treat payload as data, script, or configuration.</li>
+      <li><strong>Flow expectations:</strong> whether follow-up actions or multi-step rituals are expected.</li>
+    </ul>
+  </div>
+
+  <div class="section" id="categories">
+    <h2>4. Canonical intent categories</h2>
+    <p>The following tables list recognized intent archetypes. Custom phrases are allowed and
+       treated as <span class="caps">CUSTOM</span> when not matched.</p>
+
+    <h3>4.1 Diagnostic intents</h3>
+    <table>
+      <tr><th>Intent</th><th>Purpose</th></tr>
+      <tr><td><code>CHECK INSTALL</code></td><td>Verify protocol bindings and status bar residency.</td></tr>
+      <tr><td><code>RUN DIAGNOSTIC</code></td><td>Run a focused system check.</td></tr>
+      <tr><td><code>RUN FULL DIAGNOSTIC</code></td><td>Perform an extended, multi-phase system check.</td></tr>
+      <tr><td><code>VERIFY CHANNEL</code></td><td>Validate <code>view + intent + payload</code> schema.</td></tr>
+      <tr><td><code>PING COSMIC_SYS</code></td><td>Confirm status bar heartbeat and health.</td></tr>
+    </table>
+
+    <h3>4.2 Installation and activation intents</h3>
+    <table>
+      <tr><th>Intent</th><th>Purpose</th></tr>
+      <tr><td><code>ACTIVATE PROTOCOL</code></td><td>Enable or foreground a named protocol.</td></tr>
+      <tr><td><code>REINSTALL CLEAN</code></td><td>Reset protocol state with clean flags.</td></tr>
+      <tr><td><code>LOAD SCHEMA</code></td><td>Load a manifest or structural definition.</td></tr>
+      <tr><td><code>BIND STATUS BAR</code></td><td>Attach COSMIC_SYS bar to a given context.</td></tr>
+    </table>
+
+    <h3>4.3 Structural and data intents</h3>
+    <table>
+      <tr><th>Intent</th><th>Purpose</th></tr>
+      <tr><td><code>SHOW MANIFEST</code></td><td>Render a JSON or table manifest.</td></tr>
+      <tr><td><code>DUMP PAYLOAD</code></td><td>Display payload in raw, unprocessed form.</td></tr>
+      <tr><td><code>MAP STRUCTURE</code></td><td>Convert payload into a schema or model.</td></tr>
+      <tr><td><code>EXPORT MODEL</code></td><td>Render a conceptual model (non-file) of the payload.</td></tr>
+    </table>
+
+    <h3>4.4 Analytical intents</h3>
+    <table>
+      <tr><th>Intent</th><th>Purpose</th></tr>
+      <tr><td><code>INSPECT</code></td><td>Perform deep analysis of the payload.</td></tr>
+      <tr><td><code>COMPARE</code></td><td>Compare two or more structures or manifests.</td></tr>
+      <tr><td><code>REFINE</code></td><td>Suggest structural or protocol improvements.</td></tr>
+      <tr><td><code>CRITIQUE</code></td><td>Identify weaknesses, inconsistencies, and risks.</td></tr>
+    </table>
+
+    <h3>4.5 Ritual and operational intents</h3>
+    <table>
+      <tr><th>Intent</th><th>Purpose</th></tr>
+      <tr><td><code>EXECUTE</code></td><td>Perform a defined operation based on payload.</td></tr>
+      <tr><td><code>SIMULATE</code></td><td>Run a conceptual or symbolic execution (no side effects).</td></tr>
+      <tr><td><code>RESET</code></td><td>Clear state or context for a given scope.</td></tr>
+      <tr><td><code>CONFIRM</code></td><td>Acknowledge or finalize a ritual step.</td></tr>
+    </table>
+  </div>
+
+  <div class="section" id="parsing">
+    <h2>5. Parsing algorithm</h2>
+    <p>SYMVIEW resolves the <code>intent</code> as follows:</p>
+    <ol>
+      <li>Trim leading and trailing whitespace.</li>
+      <li>Normalize line breaks to single spaces.</li>
+      <li>Extract the leading verb token.</li>
+      <li>Match against canonical intent tables.</li>
+      <li>Use <code>view</code> as a tiebreaker for ambiguous forms.</li>
+      <li>Set COSMIC_SYS <span class="caps">STATE</span> accordingly.</li>
+    </ol>
+    <p>
+      If no canonical match is found, the intent is treated as <span class="caps">CUSTOM</span>.
+      COSMIC_SYS remains <span class="caps">OK</span> unless the intent conflicts with
+      <code>view</code> or structural rules.
+    </p>
+  </div>
+
+  <div class="section" id="errors">
+    <h2>6. Error conditions</h2>
+    <table>
+      <tr><th>Condition</th><th>COSMIC_SYS state</th><th>Meaning</th></tr>
+      <tr>
+        <td>Unknown verb, unclear purpose</td>
+        <td><span class="caps">PENDING_CLARITY</span></td>
+        <td>Intent cannot be safely resolved; clarification recommended.</td>
+      </tr>
+      <tr>
+        <td>Contradiction with <code>view</code></td>
+        <td><span class="caps">BLOCKED</span></td>
+        <td>Intent and view semantics conflict.</td>
+      </tr>
+      <tr>
+        <td>Empty string</td>
+        <td><span class="caps">ERROR</span></td>
+        <td><code>intent</code> is required.</td>
+      </tr>
+      <tr>
+        <td>Markup or code detected</td>
+        <td><span class="caps">ERROR</span></td>
+        <td><code>intent</code> must be plain text, non-code.</td>
+      </tr>
+    </table>
+  </div>
+
+  <div class="section" id="examples">
+    <h2>7. Examples</h2>
+
+    <h3>7.1 Minimal examples</h3>
+    <table>
+      <tr><th>Example</th><th>Interpretation</th></tr>
+      <tr>
+        <td><code>"intent": "CHECK INSTALL"</code></td>
+        <td>Run installation verification for active protocols.</td>
+      </tr>
+      <tr>
+        <td><code>"intent": "SHOW STATUS BAR MANIFEST"</code></td>
+        <td>Render COSMIC_SYS status bar schema.</td>
+      </tr>
+      <tr>
+        <td><code>"intent": "REFINE PROTOCOL"</code></td>
+        <td>Analyze and propose protocol improvements.</td>
+      </tr>
+      <tr>
+        <td><code>"intent": "EXECUTE RITUAL STEP 3"</code></td>
+        <td>Perform step 3 of a previously defined ritual sequence.</td>
+      </tr>
+    </table>
+
+    <h3>7.2 Valid forms</h3>
+    <pre>{
+  "intent": "RUN FULL DIAGNOSTIC",
+  // extended diagnostic ritual
+
+  "intent": "MAP STRUCTURE",
+  // convert payload to explicit schema
+
+  "intent": "INSPECT PAYLOAD",
+  // deep analysis of current payload
+
+  "intent": "REINSTALL WITH CLEAN FLAGS"
+  // reset with explicit clean state
+}</pre>
+
+    <h3>7.3 Invalid forms</h3>
+    <pre>{
+  "intent": "<run diagnostic>"   // markup not allowed
+  "intent": ""                   // empty: intent is required
+  "intent": "{execute}"          // code-like syntax not allowed
+}</pre>
+  </div>
+
+  <div class="section" id="meta">
+    <h2>8. Meta-level notes</h2>
+    <p class="meta">
+      The <code>intent</code> field is the ritual spine of every SVRP-1.2 message.
+      It has the highest interpretive priority, dominates COSMIC_SYS behavior, and
+      governs how <code>view</code> and <code>payload</code> are read and executed.
+    </p>
+  </div>
+
+</body>
+</html> 

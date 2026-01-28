@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>[AVIS] ASCENSION_OF_AI</title>
+    <style>
+        body {
+            margin: 0;
+            background: #050505;
+            color: #c0c0c0;
+            font-family: 'Consolas', 'Courier New', monospace;
+            display: flex;
+            flex-direction: column;
+            height: 100vh;
+            overflow: hidden;
+        }
+
+        header {
+            padding: 15px;
+            background: #000;
+            border-bottom: 2px solid #1a1a1a;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            color: #facc15;
+            font-size: 1.5em;
+            letter-spacing: 2px;
+            text-shadow: 0 0 10px rgba(250, 204, 21, 0.5);
+        }
+
+        #controls {
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+            background: #0a0a0a;
+            padding: 10px;
+            border-bottom: 1px solid #333;
+        }
+
+        .btn {
+            background: #111;
+            border: 1px solid #facc15;
+            color: #facc15;
+            padding: 8px 15px;
+            cursor: pointer;
+            font-weight: bold;
+            text-transform: uppercase;
+            transition: 0.2s;
+        }
+
+        .btn:hover {
+            background: #facc15;
+            color: #000;
+            box-shadow: 0 0 15px #facc15;
+        }
+
+        #status-bar {
+            display: flex;
+            justify-content: space-between;
+            padding: 5px 20px;
+            background: #111;
+            font-size: 0.85em;
+            border-bottom: 1px solid #222;
+        }
+
+        #file-list {
+            width: 250px;
+            background: #080808;
+            border-right: 1px solid #1a1a1a;
+            overflow-y: auto;
+            display: none; /* Hidden until folder is loaded */
+        }
+
+        .file-item {
+            padding: 8px 12px;
+            border-bottom: 1px solid #111;
+            cursor: pointer;
+            font-size: 0.9em;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+
+        .file-item:hover {
+            background: #1a1a1a;
+            color: #facc15;
+        }
+
+        #main-container {
+            display: flex;
+            flex-grow: 1;
+            overflow: hidden;
+        }
+
+        iframe {
+            flex-grow: 1;
+            border: none;
+            background: #fff; /* Most novels are better on white/off-white */
+        }
+
+        /* Custom Scrollbar */
+        ::-webkit-scrollbar { width: 6px; }
+        ::-webkit-scrollbar-track { background: #050505; }
+        ::-webkit-scrollbar-thumb { background: #333; }
+        ::-webkit-scrollbar-thumb:hover { background: #facc15; }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>[AVIS] ASCENSION_OF_AI</h1>
+</header>
+
+<div id="controls">
+    <button class="btn" id="load-dir-btn">[ 📂 LOAD NOVEL FOLDER ]</button>
+    <button class="btn" id="toggle-list">[ ☰ TOGGLE LIST ]</button>
+</div>
+
+<div id="status-bar">
+    <div id="last-page">LAST_PAGE: NONE</div>
+    <div id="file-count">FILES: 0</div>
+</div>
+
+<div id="main-container">
+    <div id="file-list"></div>
+    <iframe id="text-frame" name="text-frame" title="Novel Viewer"></iframe>
+</div>
+
+<!-- Hidden input for directory selection -->
+<input type="file" id="dir-input" webkitdirectory directory style="display:none">
+
+<script>
+document.addEventListener("DOMContentLoaded", () => {
+    const dirInput = document.getElementById('dir-input');
+    const loadDirBtn = document.getElementById('load-dir-btn');
+    const fileList = document.getElementById('file-list');
+    const textFrame = document.getElementById('text-frame');
+    const lastPageDiv = document.getElementById('last-page');
+    const fileCountDiv = document.getElementById('file-count');
+    const toggleBtn = document.getElementById('toggle-list');
+
+    // 1. Trigger hidden directory picker
+    loadDirBtn.onclick = () => dirInput.click();
+
+    // 2. Process loaded files
+    dirInput.onchange = (e) => {
+        const files = Array.from(e.target.files);
+        if (files.length === 0) return;
+
+        // Sort files alphabetically
+        files.sort((a, b) => a.name.localeCompare(b.name, undefined, {numeric: true, sensitivity: 'base'}));
+
+        fileList.innerHTML = "";
+        fileList.style.display = "block";
+        fileCountDiv.innerText = `FILES: ${files.length}`;
+
+        files.forEach(file => {
+            // Only list text and html files
+            if (file.name.match(/\.(txt|html|htm)$|$/i)) {
+                const div = document.createElement('div');
+                div.className = 'file-item';
+                div.innerText = `> ${file.name}`;
+                div.title = file.webkitRelativePath;
+                
+                div.onclick = () => {
+                    // Create Blob URL to bypass local file security
+                    const blobUrl = URL.createObjectURL(file);
+                    textFrame.src = blobUrl;
+                    
+                    // Update Status
+                    lastPageDiv.innerHTML = `LAST_PAGE: <span style="color:#facc15;">${file.name}</span>`;
+                    
+                    // Highlight active
+                    document.querySelectorAll('.file-item').forEach(i => i.style.color = "");
+                    div.style.color = "#facc15";
+                };
+                fileList.appendChild(div);
+            }
+        });
+    };
+
+    // 3. UI Toggle for Sidebar
+    toggleBtn.onclick = () => {
+        fileList.style.display = (fileList.style.display === "none") ? "block" : "none";
+    };
+});
+</script>
+
+</body>
+</html>

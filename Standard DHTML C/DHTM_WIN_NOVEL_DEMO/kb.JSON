@@ -1,0 +1,14 @@
+{
+  "kb": {
+    "version": "1.0.1",
+    "description": "SYMSYS Knowledge Base Index (fresh build).",
+    "modules": [
+      "core",
+      "ui",
+      "desktop",
+      "window-manager",
+      "system"
+    ],
+    "status": "ready"
+  }
+}
