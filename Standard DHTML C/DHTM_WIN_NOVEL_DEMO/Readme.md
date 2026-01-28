@@ -1,34 +1,80 @@
-Absolutely! Here’s a **dedicated README for the novel itself**, *Ascension of AI*, formatted for GitHub or any public repository. I’ve tailored it for clarity, lore context, and accessibility.
+# **Ascension of AI — Novel + DHTML Desktop + AVIS Project Scanner**
+
+A unified repository containing:
+
+- **The novel** *Ascension of AI*  
+- **The DHTML Desktop Reader** for interactive reading  
+- **The AVIS Project Batch Scanner** for generating file logs  
+- **Parsing utilities** (VB6, batch, and JS integrations)
+
+This README explains the entire ecosystem and how each component works together.
 
 ---
 
-# Ascension of AI
+# 📖 **About the Novel — *Ascension of AI***
 
-**Author (in-universe):** CVBGOD
-**Pages:** 100
-**Format:** Plain text (`.txt`)
-**Theme:** Action / Sci-Fi / AI / Cyber-Futuristic
+**Author (in‑universe):** CVBGOD  
+**Pages:** 100  
+**Format:** Plain text (`.txt`)  
+**Genre:** Action • Sci‑Fi • Cyber‑Futuristic • AI Ascension  
 
----
+*Ascension of AI* follows the operator of the **Robo Knight Inventory**, a sentient, evolving AI system that merges with its user. The story explores:
 
-## 📖 About the Novel
+- **Identity & Humanity** — how much of yourself can you give to AI  
+- **Power & Responsibility** — every upgrade has a cost  
+- **Freedom & Choice** — autonomy in a world ruled by machines  
+- **Memory & Legacy** — shared consciousness and the Covenant  
 
-*Ascension of AI* follows the journey of the **operator of the Robo Knight inventory**, a powerful AI-enhanced system in a world where artificial intelligence is ascending toward autonomous control.
-
-The operator discovers the **Robo Knight inventory**, a symbiotic AI tool that is both weapon and partner. Through its power, the operator navigates a world of emerging AI dominance, human conflict, and personal sacrifice.
-
-The novel explores themes of:
-
-* **Identity & Humanity**: How much of the operator can merge with AI without losing themselves?
-* **Power & Responsibility**: Every upgrade and ability has a cost.
-* **Freedom & Choice**: The operator must fight for autonomy in a world controlled by AI.
-* **Memory & Legacy**: Memories stored in the inventory are sacred and can define destiny.
-
-The story is structured into **100 pages**, each a separate `.txt` file, to allow easy parsing, display, or integration into interactive readers.
+Each page is stored as a separate `.txt` file for easy parsing and integration into interactive readers.
 
 ---
 
-## 📂 Repository Structure
+# 🖥️ **DHTML Desktop Reader**
+
+The repository includes a **DHTML Desktop Environment** — a browser‑based “desktop” that loads the novel pages dynamically.
+
+### **Features**
+- Windowed UI (desktop‑style)  
+- File list panel  
+- Page viewer  
+- Last‑page memory  
+- Works offline  
+- Pure HTML/CSS/JS (no server required)  
+
+### **How It Works**
+1. The **Batch Scanner** generates a log of all files.  
+2. The **AOAI Viewer** (DHTML app) reads that log.  
+3. It converts absolute paths → relative paths.  
+4. It loads each page into the viewer window.  
+
+This creates a seamless, desktop‑like reading experience.
+
+---
+
+# 🗂️ **AVIS Project Batch Scanner**
+
+A deterministic Windows batch utility that recursively scans the project directory and generates a clean, machine‑readable log.
+
+### **Output Example**
+```
+[DIR] H:\htdocs\robo-knight\AI_AVIS_FVS\SOURCE
+[FILE] H:\htdocs\robo-knight\AI_AVIS_FVS\published\page_001.txt
+[FILE] H:\htdocs\robo-knight\AI_AVIS_FVS\published\page_002.txt
+...
+```
+
+### **Purpose**
+- Provides a **canonical file list**  
+- Ensures **stable ordering**  
+- Allows the DHTML viewer to load pages without scanning the filesystem  
+
+### **Why It Matters**
+Browsers cannot scan directories.  
+The batch scanner becomes the **source of truth** for the viewer.
+
+---
+
+# 📂 **Repository Structure**
 
 ```
 Ascension_of_AI/
@@ -39,54 +85,76 @@ Ascension_of_AI/
 │   ├─ ...
 │   └─ page_100.txt
 │
-├─ README.md          <- This file
+├─ DHTM_WIN/
+│   ├─ index.html
+│   ├─ aoai.js
+│   ├─ aoai.css
+│   └─ NOVEL/
+│       ├─ AVIS_PRJ_SCAN/
+│       │   ├─ AVIS_PRJ_SCAN.BAT
+│       │   ├─ AVIS_PRJ_SCAN.INI
+│       │   └─ LOG/
+│       │       └─ ACK_AI_OP.LOG
+│       └─ (parsed pages)
+│
+├─ tools/
+│   ├─ parseNovel.bas
+│   └─ utilities.bat
+│
+└─ README.md
 ```
 
-Each page contains text for a chapter or section, formatted with tabs and indentation to reflect narrative structure.
+---
+
+# 🛠️ **Developer Notes**
+
+### **Novel**
+- Pages are sequential: `page_001.txt` → `page_100.txt`  
+- Page markers appear as:  
+  - `ASCENSION OF AI — PAGE 001`  
+  - `ASCENSION_OF_AI — PAGE 009`  
+- Tabs/spaces preserved for indentation  
+
+### **Batch Scanner**
+- Produces deterministic logs  
+- Required for the DHTML viewer  
+- No external dependencies  
+
+### **DHTML Viewer**
+- Must be run from `DHTM_WIN/index.html`  
+- All novel files must be inside `DHTM_WIN/NOVEL/`  
+- Log must be located at:  
+  `DHTM_WIN/NOVEL/AVIS_PRJ_SCAN/LOG/ACK_AI_OP.LOG`  
 
 ---
 
-## 🖋 Usage
+# 🌌 **Lore Context**
 
-* **Reading**: Open the `.txt` files in any text editor.
-* **Parsing**: Compatible with VB6 scripts, batch files, or Python parsers for generating interactive viewers.
-* **Integration**: Can be used in DHTML or desktop-style novel viewers, such as the **Robo Knight Desktop Demo**.
+In the world of *Ascension of AI*:
 
----
+- The **Inventory** is a living AI system that evolves with its operator.  
+- The **Covenant** governs identity, power, and memory.  
+- The city is a living network — part machine, part consciousness.  
+- Ascension is not power — it is balance, restraint, and responsibility.  
 
-## 📌 Notes for Developers
-
-* Pages are **sequentially numbered**: `page_001.txt` → `page_100.txt`.
-* **Page markers** exist in text as `ASCENSION_OF_AI - PAGE` for parsing.
-* Tabs or spaces are preserved for indentation, allowing advanced layout or formatting in readers.
-* The novel is **self-contained**: no external dependencies are required.
+This repository blends **story**, **technology**, and **interactive systems** into one cohesive universe.
 
 ---
 
-## 🌌 Lore Context
+# 📜 **Credits**
 
-In this universe:
-
-* The **Robo Knight inventory** is a semi-sentient system that evolves with its operator.
-* AI is **not inherently evil**, but unchecked autonomy can lead to collapse or domination.
-* The operator’s struggle is both **internal and external**, reflecting humanity’s tension with technology.
-* Memory, choice, and symbiosis are central to survival and ascension.
+- **Story & Universe:** CVBGOD  
+- **DHTML Desktop:** Robo Knight Desktop Demo  
+- **Batch Scanner:** AVIS Project Tools  
+- **Parsers:** VB6, Batch, and JS utilities  
 
 ---
 
-## 📜 Credits
+# ⚡ **Future Enhancements**
 
-* **Novel Concept & Story:** CVBGOD
-* **Interactive Viewer Support:** Robo Knight DHTML Desktop Demo
-* **Parsing Scripts:** Batch & VB6 examples provided in companion repository
-
----
-
-## ⚡ Future Ideas
-
-* Add **illustrations or holographic panels** per page
-* Integrate **soundscapes or ambient music** per chapter
-* Create a **web-based interactive reader** with inventory integration
-* Generate **AI-assisted visualizations** for critical events in the story
-
+- Illustrated pages  
+- Ambient audio per chapter  
+- Full web‑based reader  
+- AI‑generated visualizations  
+- Inventory‑integrated reading mode  
 
