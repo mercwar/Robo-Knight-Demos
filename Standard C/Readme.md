@@ -161,7 +161,11 @@ BEGIN → LOAD SEED → INIT KB → EXEC SEED → RETURN → BEGIN EXIT
 This is the canonical AVIS execution chain.
 
 ---
-
+<img     
+    src="https://github.com/mercwar/Robo-Knight-Gallery/blob/main/PROTOTYPE/Gemini_Generated_Image_v2m7sov2m7sov2m7.png" 
+    alt="Robo-Knight Canonical Shine" 
+    style="max-width:100%; height:auto;"
+/>
 ## **Files of Interest**
 
 ### **BEGIN.C**
