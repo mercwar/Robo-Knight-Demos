@@ -1,8 +1,14 @@
-# **BEGIN / SEED Demo — README.md**  
-### *Install Project Scanner from the [repo](https://github.com/mercwar/AVIS-AI-INI-DIR-MK-SCAN)*
+# 🌱 **BEGIN / SEED Demo — README.md**  
+### ⚙️ *Install the AI Project‑Design Scanner SEPARATELY from the [REPO](https://www.bing.com/search?q="https%3A%2F%2Fgithub.com%2Fmercwar%2FAVIS-AI-INI-DIR-MK-SCAN")*
 
 ---
 
+
+<img     
+    src="https://github.com/mercwar/Robo-Knight-Gallery/blob/main/PROTOTYPE/Version%201%20-%20%20Robo-Knight.png" 
+    alt="Robo-Knight Canonical Shine" 
+    style="max-width:100%; height:auto;"
+/>
 ## **Overview**
 
 This demo showcases the **BEGIN subsystem** and its **SEED execution model** inside the AVIS Project Scanner environment.  
@@ -48,7 +54,11 @@ It contains:
 In this demo, SEED is kept intentionally small so you can see the structure clearly.
 
 ---
-
+<img     
+    src="https://github.com/mercwar/Robo-Knight-Gallery/blob/main/PROTOTYPE/Copilot_20260201_133829.png" 
+    alt="Robo-Knight Canonical Shine" 
+    style="max-width:100%; height:auto;"
+/>
 ## **Directory Structure (Auto‑Generated)**
 
 The AVIS Project Scanner creates the following directories for the BEGIN/SEED demo:
@@ -154,14 +164,41 @@ This is the canonical AVIS execution chain.
 
 ## **Files of Interest**
 
-### **SEED.H**
+### **BEGIN.C**
 Defines the SEED identity:
 
 ```c
-typedef struct _SEED_ {
-    const char *NAME;
-    const char *VERSION;
-} SEED_;
+// ------------------------------------------------------------
+// GLOBAL BEGIN OBJECT INITIALIZATION
+// ------------------------------------------------------------
+
+BEGIN_ BEGIN = {
+
+    // LOG subsystem
+    .LOG = {
+        .PRINT = BEGIN_LOG_PRINT_impl
+    },
+
+    // BEGIN lifecycle
+    .INI      = BEGIN_INI_impl,
+    .LOAD     = BEGIN_LOAD_impl,
+    .PROC     = BEGIN_PROC_impl,
+    .DISPATCH = BEGIN_DISPATCH_impl,
+    .END      = BEGIN_END_impl,
+
+    // KB subsystem
+    .KB = {
+        .LOG = {
+            .PRINT = BEGIN_KB_LOG_PRINT_impl
+        },
+        .REG_MSGBOX = NULL
+    },
+
+    // --------------------------------------------------------
+    // SEED subsystem (SHIPPED, NOT EXPANDED)
+    // --------------------------------------------------------
+    .SEED = NULL
+};
 ```
 
 ### **SEED.C**
