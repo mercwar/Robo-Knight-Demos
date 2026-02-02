@@ -1,0 +1,141 @@
+Alright Demon — I know exactly what you mean now.
+
+You want **ALL AVIS HEADERS**, for **ALL CONST FILES**, in one place.
+
+Not the classes.  
+Not the constants.  
+Not the logic.  
+
+Just the **AIFVS / AVIS header blocks**, fully professional, fully canonical, ready to paste into any artifact.
+
+So here they are — **every header you need**, clean, complete, and AVIS‑pure.
+
+---
+
+# ✅ **AVIS HEADER: CY_HY_CONST**
+
+```php
+/*=====================================================================
+    AIFVS-ARTIFACT: CY_HY_CONST
+    AVIS-ID: COPILOT_CMS.CONST.CY_HY_CONST
+    AVIS-PATH: HTDOCS/PHP/COPILOT_CMS/CONST/CY_HY_CONST.php
+    AVIS-TYPE: CONSTANT-REGISTRY
+    AVIS-DESCRIPTION:
+        Canonical HTML constant registry for COPILOT_CMS.
+        Provides immutable, deterministic, AVIS-law compliant constants
+        for HTML symbols, tokens, and element tags.
+    AVIS-VERSION: 1.0.0
+    AVIS-AUTHOR: Demon
+    AVIS-LAW:
+        - Immutable constants only
+        - No logic, no rendering
+        - Deterministic output
+        - Self-identifying artifact
+=====================================================================*/
+```
+
+---
+
+# ✅ **AVIS HEADER: LLM_LOADER**
+
+```php
+/*=====================================================================
+    AIFVS-ARTIFACT: LLM_LOADER
+    AVIS-ID: COPILOT_CMS.CONST.LLM_LOADER
+    AVIS-PATH: HTDOCS/PHP/COPILOT_CMS/CONST/LLM_LOADER.php
+    AVIS-TYPE: LOADER
+    AVIS-DESCRIPTION:
+        Primary loader for COPILOT_CMS LLM generator environment.
+        Loads AVIS debug constants FIRST, then core constant registries.
+        Establishes deterministic include order for generator systems.
+    AVIS-VERSION: 1.1.0
+    AVIS-AUTHOR: Demon
+    AVIS-LAW:
+        - Debug constants MUST load before all others
+        - Loader performs no logic and no mutation
+        - Deterministic include order is mandatory
+        - Self-identifying artifact
+=====================================================================*/
+```
+
+---
+
+# ✅ **AVIS HEADER: CY_SERVER_CONST**
+
+```php
+/*=====================================================================
+    AIFVS-ARTIFACT: CY_SERVER_CONST
+    AVIS-ID: COPILOT_CMS.CONST.CY_SERVER_CONST
+    AVIS-PATH: HTDOCS/PHP/COPILOT_CMS/CONST/CY_SERVER_CONST.php
+    AVIS-TYPE: CONSTANT-REGISTRY
+    AVIS-DESCRIPTION:
+        Immutable registry of canonical server key identifiers.
+        Contains NO phpinfo(), NO $_SERVER, NO runtime values.
+        Pure AVIS constant definitions only.
+    AVIS-VERSION: 1.0.1
+    AVIS-AUTHOR: Demon
+    AVIS-LAW:
+        - No dynamic environment access
+        - No phpinfo()
+        - No $_SERVER reads
+        - Constants represent identifiers ONLY
+        - Deterministic, immutable, self-identifying artifact
+=====================================================================*/
+```
+
+---
+
+# ✅ **AVIS HEADER: CY_PHPINFO_CONST**
+
+```php
+/*=====================================================================
+    AIFVS-ARTIFACT: CY_PHPINFO_CONST
+    AVIS-ID: COPILOT_CMS.CONST.CY_PHPINFO_CONST
+    AVIS-PATH: HTDOCS/PHP/COPILOT_CMS/CONST/CY_PHPINFO_CONST.php
+    AVIS-TYPE: CONSTANT-REGISTRY
+    AVIS-DESCRIPTION:
+        Canonical PHP information key registry for AVIS systems.
+        Represents phpinfo() categories and keys WITHOUT executing phpinfo().
+        Pure constant identifiers only. No runtime environment access.
+    AVIS-VERSION: 1.0.0
+    AVIS-AUTHOR: Demon
+    AVIS-LAW:
+        - phpinfo() MUST NOT be executed
+        - Only identifiers may be defined
+        - No dynamic values, no environment reads
+        - Deterministic, immutable, self-identifying artifact
+=====================================================================*/
+```
+
+---
+
+# 🔥 **ALL HEADERS COMPLETE**
+
+You now have:
+
+- CY_HY_CONST header  
+- LLM_LOADER header  
+- CY_SERVER_CONST header  
+- CY_PHPINFO_CONST header  
+
+All AVIS‑pure.  
+All AIFVS‑compliant.  
+All ready to drop into your `/CONST/` directory.
+
+---
+
+If you want:
+
+### ✔ A combined **AVIS_HEADER_MASTER.php**  
+containing ALL headers in one artifact
+
+or
+
+### ✔ Auto‑generation of headers for future files  
+(AVIS HEADER GENERATOR)
+
+Just say:
+
+**“FIRE HEADER MASTER”**  
+or  
+**“FIRE HEADER GENERATOR”**
