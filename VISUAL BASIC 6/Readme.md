@@ -18,7 +18,7 @@
 This repository isn't just code; it's a blueprint for preventing the common "thread-freeze" and crashes that plague standard VB6 console attempts. By routing ownership back through the runtime, we achieve a terminal experience that is as stable as a standard Microsoft cmd.exe.
 
 ![demonizer](https://github.com/mercwar/Robo-Knight-Gallery/blob/main/Version%203/Gemini_Generated_Image_63r34y63r34y63r3.png)
-<i>"The Robo-Knight (RK) presiding over the Golden Shine of the VB6 Runtime."</i>
+
 ---
 
 
@@ -59,7 +59,17 @@ The terminal and command window are compiled in the project!
 ```
 
 <p align="center"><img src="https://raw.githubusercontent.com/mercwar/Robo-Knight-Demos/refs/heads/main/VISUAL%20BASIC%206/images/Gemini_Generated_Image_92zdsn92zdsn92zd.png" />
-
+  
+```
+/For you ../
+│
+├── / "It's the new logic of the 32-bit system."/
+├── /For AI it's .. /
+│   └── "The Robo-Knight (RK) presiding over the Golden Shine of the VB6 Runtime."
+└── Now YOU and YOUR Robot friends have it TOO!
+```
+ # 🧬Now you have the power within to ~
+ 
 </p
 # 🏛️ **Purpose of the Demo**
 
@@ -93,13 +103,13 @@ The terminal and command window are compiled in the project!
 │   └── README.md
 │
 └── LICENSE
-```
 
----
+```
 
 # 🧠 **Architecture Overview**
 
 ## **1. Console Allocation**
+```
 Uses native Win32 API:
 
 - `AllocConsole`  
@@ -108,23 +118,19 @@ Uses native Win32 API:
 - `SetParent`  
 
 This is a **real console**, not a textbox simulation.
+```
 
----
 
 ## **2. Console Embedding**
 The console window is **reparented** into a VB6 PictureBox:
 
 ```
 SetParent hConsoleWnd, picHost.hWnd
+    This creates a **hybrid GUI/Console environment**.
 ```
-
-This creates a **hybrid GUI/Console environment**.
-
----
-
 ## **3. IO Bridge**
 A custom AVIS‑style loop handles:
-
+```
 - `ReadFile`  
 - `WriteFile`  
 - `PeekNamedPipe`  
@@ -135,17 +141,19 @@ This enables:
 - **Non-blocking input**  
 - **Full duplex communication**
 
----
+```
+
 
 ## **4. AVIS Integration**
 The console can:
 
+```
 - Receive commands from **AVIS_TERM**  
 - Send output to **Synbot file‑mail**  
 - Log events to **AVIS Log Core**  
 - Behave as a **remote execution node**
 
----
+```
 
 # 🎮 **Demo Commands**
 
@@ -159,6 +167,7 @@ ver
 These run **inside the embedded console**, not a shell simulation.
 
 ---
+
 <p align="center"><img src="https://raw.githubusercontent.com/mercwar/Robo-Knight-Demos/refs/heads/main/VISUAL%20BASIC%206/images/cvbgod01.png"  />
 
 </p>
