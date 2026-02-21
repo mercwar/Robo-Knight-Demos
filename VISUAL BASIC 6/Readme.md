@@ -1,4 +1,4 @@
-<p align="center"> <img src="https://raw.githubusercontent.com/mercwar/Robo-Knight-Demos/refs/heads/main/VISUAL%20BASIC%206/images/cvbgod02.png" width="450" /> </p>
+<p align="center"> <img src="https://raw.githubusercontent.com/mercwar/Robo-Knight-Demos/refs/heads/main/VISUAL%20BASIC%206/images/cvbgod02.png" /> </p>
 
 <h1 align="center">🛡️ CVBGOD'S — VB6 Godly Console Demo 🛡️</h1>
 
