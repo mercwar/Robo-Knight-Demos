@@ -25,31 +25,34 @@ jobs:
       - name: Install unzip
         run: sudo apt-get update && sudo apt-get install -y unzip
 
-      # 3️⃣ MATERIALIZE: Matching the physical file: CYHY-CMT.zip
+      # 3️⃣ MATERIALIZE: Using quoted paths for directories with spaces
       - name: Materialize Beacon
         run: |
-          if [ -f "/VISUAL BASIC 6/CVBGODLY_CONSOLE.zip" ]; then
-            # Extract to current workspace (.) so git can see the files
-            unzip -o /VISUAL BASIC 6/CVBGODLY_CONSOLE.zip -d .
+          # Use ./ to reference the checked-out repository files
+          ZIP_PATH="./VISUAL BASIC 6/CVBGODLY_CONSOLE.zip"
+          
+          if [ -f "$ZIP_PATH" ]; then
+            # Unzip using quotes to handle the space in the filename/path
+            unzip -o "$ZIP_PATH" -d .
             echo "BASH: [ACK] Scroll extracted inside workspace."
           else
-            echo "BASH: [NACK] /VISUAL BASIC 6/CVBGODLY_CONSOLE.zip not found at $GITHUB_WORKSPACE"
+            echo "BASH: [NACK] $ZIP_PATH not found at $GITHUB_WORKSPACE"
             ls -R
             exit 1
           fi
 
-      # 4️⃣ PORTAL SYNC: Push the actual extracted data
+      # 4️⃣ PORTAL SYNC: Commit only actual workspace changes
       - name: Commit Changes
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
-          # Use dot to add only the real files inside the repository
+          # Add extracted files in the workspace (ignores root /)
           git add .
 
           if ! git diff --staged --quiet; then
             git commit -m "AVIS: Beacon Materialized [Pulse]"
-            # Rebase to keep autonomous sync clean
+            # Rebase handles autonomous sync collisions
             git pull --rebase -X ours origin main 
             git push origin main
             echo "wm_macro_ack: Portal Sync Successful."
