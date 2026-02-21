@@ -50,15 +50,16 @@ Load the project then press play!
 <p align="center">
 <img src="https://raw.githubusercontent.com/mercwar/Robo-Knight-Demos/refs/heads/main/VISUAL%20BASIC%206/images/cvbgod03.png" width="400" />
 </p>
+
 ### **3. AVIS Terminal Integration**
 ```
 The terminal and command window are compiled in the project!
-```
+
 - Console can **receive commands** from AVIS  
 - Console can **send output** to Synbot file‑mail  
 - Console behaves as a **remote terminal node**
+```
 
----
 <p align="center"><img src="https://raw.githubusercontent.com/mercwar/Robo-Knight-Demos/refs/heads/main/VISUAL%20BASIC%206/images/Gemini_Generated_Image_92zdsn92zdsn92zd.png" width="500" />
 
 </p
