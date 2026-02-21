@@ -17,7 +17,7 @@
 
 This repository isn't just code; it's a blueprint for preventing the common "thread-freeze" and crashes that plague standard VB6 console attempts. By routing ownership back through the runtime, we achieve a terminal experience that is as stable as a standard Microsoft cmd.exe.
 
-![demonizer](https://github.com/mercwar/Robo-Knight-Gallery/blob/main/Version%203/Gemini_Generated_Image_pode8apode8apode.png?raw=true)
+![demonizer](https://github.com/mercwar/Robo-Knight-Gallery/blob/main/Version%203/Gemini_Generated_Image_63r34y63r34y63r3.png)
 <i>"The Robo-Knight (RK) presiding over the Golden Shine of the VB6 Runtime."</i>
 ---
 
