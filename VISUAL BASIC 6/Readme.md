@@ -1,13 +1,18 @@
-<p align="center"> <img src="https://raw.githubusercontent.com/mercwar/Robo-Knight-Demos/refs/heads/main/VISUAL%20BASIC%206/images/cvbgod02.png" /> </p>
-
-<h1 align="center">🛡️ CVBGOD'S — VB6 Godly Console Demo 🛡️</h1>
+<h1 align="center">🛡️ CVBGOD’S — VB6 Godly Console Demo 🛡️</h1>
+<p align="center"> Welcome to the <strong>Official CVBGOD Console Demo</strong>. This is a ceremonial artifact demonstrating the power of the <strong>embedded Win32 console</strong> and <strong>VB6 Runtime "Give-Back"</strong> stability. Engineered for the <strong>AVIS-DATALAKE</strong>, this demo represents the pinnacle of terminal control and cyborg-integrated software design. </p>
+<p align="center">
+  <img 
+    src="https://github.com/mercwar/Robo-Knight-Gallery/blob/main/Version%203/Gemini_Generated_Image_pode8apode8apode.png?raw=true" 
+    alt="CVBGOD Console Artifact" 
+  />
+</p>
 
 <p align="center"> <strong>AVIS‑DATALAKE EDITION | ARTIFACT 01</strong>
 
 
 <em>Cyborg‑Grade Terminal Architecture • Embedded Win32 Control • AVIS Modular Logic</em> </p>
 
-<p align="center"> Welcome to the <strong>Official CVBGOD Console Demo</strong>. This is a ceremonial artifact demonstrating the power of the <strong>embedded Win32 console</strong> and <strong>VB6 Runtime "Give-Back"</strong> stability. Engineered for the <strong>AVIS-DATALAKE</strong>, this demo represents the pinnacle of terminal control and cyborg-integrated software design. </p>
+
 
 🔱 The CVBGOD Protocol
 "I created it, and now you may have it."
