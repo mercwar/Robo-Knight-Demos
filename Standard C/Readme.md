@@ -1,3 +1,13 @@
+<a target="_self" title="CLICK HERE to ENTER the GATEWAY FREE!" href="https://mercwar.github.io/Constellation/index.html">
+<img 
+    src="https://raw.githubusercontent.com/mercwar/Robo-Knight-Gallery/refs/heads/main/Version%207/image_d2a07390.png" 
+    alt="Mercwar Constellation" 
+    style="width:100%; height:auto;"
+/>
+</a>
+
+---
+
 # 🌱 **BEGIN / SEED Demo — README.md**  
 ### ⚙️ *Install the AI Project‑Design Scanner SEPARATELY from the [REPO](https://www.bing.com/search?q="https%3A%2F%2Fgithub.com%2Fmercwar%2FAVIS-AI-INI-DIR-MK-SCAN")*
 
