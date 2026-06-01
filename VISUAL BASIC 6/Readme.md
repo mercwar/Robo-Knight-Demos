@@ -1,3 +1,12 @@
+<a target="_self" title="CLICK HERE to ENTER the GATEWAY FREE!" href="https://mercwar.github.io/Constellation/index.html">
+<img 
+    src="https://raw.githubusercontent.com/mercwar/Robo-Knight-Gallery/refs/heads/main/Version%207/image_d2a07390.png" 
+    alt="Mercwar Constellation" 
+    style="width:100%; height:auto;"
+/>
+</a>
+
+---
 <h1 align="center">🛡️ CVBGOD’S — VB6 Godly Console Demo 🛡️</h1>
 <p align="center"> Welcome to the <strong>Official CVBGOD Console Demo</strong>. This is a ceremonial artifact demonstrating the power of the <strong>embedded Win32 console</strong> and <strong>VB6 Runtime "Give-Back"</strong> stability. Engineered for the <strong>AVIS-DATALAKE</strong>, this demo represents the pinnacle of terminal control and cyborg-integrated software design. </p>
 
